@@ -454,32 +454,8 @@
       <translation>使用個別遊戲組態</translation>
     </message>
     <message>
-      <source>L1 / LB</source>
-      <translation>L1 / LB</translation>
-    </message>
-    <message>
-      <source>L2 / LT</source>
-      <translation>L2 / LT</translation>
-    </message>
-    <message>
-      <source>Back</source>
-      <translation>Back</translation>
-    </message>
-    <message>
-      <source>R1 / RB</source>
-      <translation>R1 / RB</translation>
-    </message>
-    <message>
-      <source>R2 / RT</source>
-      <translation>R2 / RT</translation>
-    </message>
-    <message>
       <source>L3</source>
       <translation>L3</translation>
-    </message>
-    <message>
-      <source>Options / Start</source>
-      <translation>Options / Start</translation>
     </message>
     <message>
       <source>R3</source>
@@ -488,22 +464,6 @@
     <message>
       <source>Face Buttons</source>
       <translation>功能鍵（動作按鈕）</translation>
-    </message>
-    <message>
-      <source>Triangle / Y</source>
-      <translation>三角 / Y</translation>
-    </message>
-    <message>
-      <source>Square / X</source>
-      <translation>正方 / X</translation>
-    </message>
-    <message>
-      <source>Circle / B</source>
-      <translation>圖形 / B</translation>
-    </message>
-    <message>
-      <source>Cross / A</source>
-      <translation>交叉 / A</translation>
     </message>
     <message>
       <source>Right Stick Deadzone (def:2, max:127)</source>
@@ -564,6 +524,130 @@
     <message>
       <source>Cancel</source>
       <translation>取消</translation>
+    </message>
+    <message>
+      <source>unmapped</source>
+      <translation type="unfinished">unmapped</translation>
+    </message>
+    <message>
+      <source>L1</source>
+      <translation type="unfinished">L1</translation>
+    </message>
+    <message>
+      <source>R1</source>
+      <translation type="unfinished">R1</translation>
+    </message>
+    <message>
+      <source>L2</source>
+      <translation type="unfinished">L2</translation>
+    </message>
+    <message>
+      <source>Options</source>
+      <translation type="unfinished">Options</translation>
+    </message>
+    <message>
+      <source>R2</source>
+      <translation type="unfinished">R2</translation>
+    </message>
+    <message>
+      <source>Touchpad Left</source>
+      <translation type="unfinished">Touchpad Left</translation>
+    </message>
+    <message>
+      <source>Touchpad Center</source>
+      <translation type="unfinished">Touchpad Center</translation>
+    </message>
+    <message>
+      <source>Touchpad Right</source>
+      <translation type="unfinished">Touchpad Right</translation>
+    </message>
+    <message>
+      <source>Triangle</source>
+      <translation type="unfinished">Triangle</translation>
+    </message>
+    <message>
+      <source>Square</source>
+      <translation type="unfinished">Square</translation>
+    </message>
+    <message>
+      <source>Circle</source>
+      <translation type="unfinished">Circle</translation>
+    </message>
+    <message>
+      <source>Cross</source>
+      <translation type="unfinished">Cross</translation>
+    </message>
+    <message>
+      <source>Cannot bind any unique input more than once. Duplicate inputs mapped to the following buttons:
+
+%1</source>
+      <translation type="unfinished">Cannot bind any unique input more than once. Duplicate inputs mapped to the following buttons:
+
+%1</translation>
+    </message>
+    <message>
+      <source>Press a button</source>
+      <translation type="unfinished">Press a button</translation>
+    </message>
+    <message>
+      <source>Move analog stick</source>
+      <translation type="unfinished">Move analog stick</translation>
+    </message>
+    <message>
+      <source>L1 and L2</source>
+      <translation type="unfinished">L1 and L2</translation>
+    </message>
+    <message>
+      <source>Active Gamepad</source>
+      <translation type="unfinished">Active Gamepad</translation>
+    </message>
+    <message>
+      <source>Gamepad ID</source>
+      <translation type="unfinished">Gamepad ID</translation>
+    </message>
+    <message>
+      <source>Default Gamepad</source>
+      <translation type="unfinished">Default Gamepad</translation>
+    </message>
+    <message>
+      <source>No default selected</source>
+      <translation type="unfinished">No default selected</translation>
+    </message>
+    <message>
+      <source>n/a</source>
+      <translation type="unfinished">n/a</translation>
+    </message>
+    <message>
+      <source>Set Active Gamepad as Default</source>
+      <translation type="unfinished">Set Active Gamepad as Default</translation>
+    </message>
+    <message>
+      <source>Remove Default Gamepad</source>
+      <translation type="unfinished">Remove Default Gamepad</translation>
+    </message>
+    <message>
+      <source>R1 and R2</source>
+      <translation type="unfinished">R1 and R2</translation>
+    </message>
+    <message>
+      <source>ID: </source>
+      <translation type="unfinished">ID: </translation>
+    </message>
+    <message>
+      <source>Default Controller Selected</source>
+      <translation type="unfinished">Default Controller Selected</translation>
+    </message>
+    <message>
+      <source>Active controller set as default</source>
+      <translation type="unfinished">Active controller set as default</translation>
+    </message>
+    <message>
+      <source>Default Controller Removed</source>
+      <translation type="unfinished">Default Controller Removed</translation>
+    </message>
+    <message>
+      <source>Default controller setting removed</source>
+      <translation type="unfinished">Default controller setting removed</translation>
     </message>
   </context>
   <context>
@@ -747,6 +831,10 @@
     <message>
       <source>Last updated</source>
       <translation>最後更新</translation>
+    </message>
+    <message>
+      <source>Favorite</source>
+      <translation type="unfinished">Favorite</translation>
     </message>
   </context>
   <context>
@@ -950,6 +1038,14 @@
       <source>SFO Viewer for </source>
       <translation>SFO 檢視器： </translation>
     </message>
+    <message>
+      <source>Remove from Favorites</source>
+      <translation type="unfinished">Remove from Favorites</translation>
+    </message>
+    <message>
+      <source>Add to Favorites</source>
+      <translation type="unfinished">Add to Favorites</translation>
+    </message>
   </context>
   <context>
     <name>HelpDialog</name>
@@ -1055,10 +1151,6 @@
     <message>
       <source>L3</source>
       <translation>L3</translation>
-    </message>
-    <message>
-      <source>Touchpad Click</source>
-      <translation>觸控板點擊</translation>
     </message>
     <message>
       <source>Mouse to Joystick</source>
@@ -1187,6 +1279,18 @@
       <translation type="unfinished">Cannot bind any unique input more than once. Duplicate inputs mapped to the following buttons:
 
 %1</translation>
+    </message>
+    <message>
+      <source>Touchpad Left</source>
+      <translation type="unfinished">Touchpad Left</translation>
+    </message>
+    <message>
+      <source>Touchpad Center</source>
+      <translation type="unfinished">Touchpad Center</translation>
+    </message>
+    <message>
+      <source>Touchpad Right</source>
+      <translation type="unfinished">Touchpad Right</translation>
     </message>
   </context>
   <context>
@@ -1447,6 +1551,10 @@
       <source>Show Labels Under Icons</source>
       <translation>在圖示下方顯示標籤</translation>
     </message>
+    <message>
+      <source>Customize Hotkeys</source>
+      <translation type="unfinished">Customize Hotkeys</translation>
+    </message>
   </context>
   <context>
     <name>SettingsDialog</name>
@@ -1539,16 +1647,24 @@
       <translation>空閒滑鼠指標逾時隱藏</translation>
     </message>
     <message>
+      <source>Microphone</source>
+      <translation type="unfinished">Microphone</translation>
+    </message>
+    <message>
+      <source>None</source>
+      <translation type="unfinished">None</translation>
+    </message>
+    <message>
+      <source>Default Device</source>
+      <translation type="unfinished">Default Device</translation>
+    </message>
+    <message>
       <source>s</source>
       <translation>秒</translation>
     </message>
     <message>
       <source>Controller</source>
       <translation>控制器</translation>
-    </message>
-    <message>
-      <source>Back Button Behavior</source>
-      <translation>返回按鈕行為</translation>
     </message>
     <message>
       <source>Graphics</source>
@@ -1641,6 +1757,14 @@
     <message>
       <source>Guest Debug Markers</source>
       <translation>Guest 偵錯標記</translation>
+    </message>
+    <message>
+      <source>Enable Readbacks</source>
+      <translation type="unfinished">Enable Readbacks</translation>
+    </message>
+    <message>
+      <source>Enable Readback Linear Images</source>
+      <translation type="unfinished">Enable Readback Linear Images</translation>
     </message>
     <message>
       <source>Update</source>
@@ -1787,10 +1911,6 @@
       <translation>空閒滑鼠指標隱藏逾時：\n閒置滑鼠指標隱藏自身之前的持續顯示時間（秒）。</translation>
     </message>
     <message>
-      <source>Back Button Behavior:\nSets the controller&apos;s back button to emulate tapping the specified position on the PS4 touchpad.</source>
-      <translation>返回按鈕行為：\n設定控制器&apos;的返回按鈕以模擬點擊 PS4 控制器觸控板上的指定位置。</translation>
-    </message>
-    <message>
       <source>Display Compatibility Data:\nDisplays game compatibility information in table view. Enable &quot;Update Compatibility On Startup&quot; to get up-to-date information.</source>
       <translation>顯示相容性資料：\n在表格顯視模式中顯示遊戲相容性資訊。啟用「啟動&quot;時更新相容性」以取得&quot;最新資訊。</translation>
     </message>
@@ -1813,22 +1933,6 @@
     <message>
       <source>Always</source>
       <translation>始終</translation>
-    </message>
-    <message>
-      <source>Touchpad Left</source>
-      <translation>觸控板左側</translation>
-    </message>
-    <message>
-      <source>Touchpad Right</source>
-      <translation>觸控板右側</translation>
-    </message>
-    <message>
-      <source>Touchpad Center</source>
-      <translation>觸控板中間</translation>
-    </message>
-    <message>
-      <source>None</source>
-      <translation>無</translation>
     </message>
     <message>
       <source>Graphics Device:\nOn multiple GPU systems, select the GPU the emulator will use from the drop down list,\nor select &quot;Auto Select&quot; to automatically determine it.</source>
@@ -1887,8 +1991,12 @@
       <translation>收集著色器：\n您需要啟用此功能才能使用偵錯功能表 (Ctrl + F10) 編輯著色器。</translation>
     </message>
     <message>
-      <source>Crash Diagnostics:\nCreates a .yaml file with info about the Vulkan state at the time of crashing.\nUseful for debugging &apos;Device lost&apos; errors. If you have this enabled, you should enable Host AND Guest Debug Markers.\nDoes not work on Intel GPUs.\nYou need Vulkan Validation Layers enabled and the Vulkan SDK for this to work.</source>
-      <translation>當機診斷：\n會建立一個 .yaml 檔案，其中包含有關當機時 Vulkan 狀態的資訊。 \n對於偵錯「&apos;裝置遺失」的&apos;錯誤很有用。如果啟用了此功能，則應啟用主機和來賓偵錯標記。 \n不適用於 Intel GPU。 \n你需要啟用 Vulkan 驗證層和 Vulkan SDK 才能使此功能如常運作。</translation>
+      <source>Enable Readbacks:\nEnable GPU memory readbacks and writebacks.\nThis is required for proper behavior in some games.\nMight cause stability and/or performance issues.</source>
+      <translation type="unfinished">Enable Readbacks:\nEnable GPU memory readbacks and writebacks.\nThis is required for proper behavior in some games.\nMight cause stability and/or performance issues.</translation>
+    </message>
+    <message>
+      <source>Enable Readback Linear Images:\nEnables async downloading of GPU modified linear images.\nMight fix issues in some games.</source>
+      <translation type="unfinished">Enable Readback Linear Images:\nEnables async downloading of GPU modified linear images.\nMight fix issues in some games.</translation>
     </message>
     <message>
       <source>Copy GPU Buffers:\nGets around race conditions involving GPU submits.\nMay or may not help with PM4 type 0 crashes.</source>
@@ -2054,6 +2162,30 @@
       <source> * Unsupported Vulkan Version</source>
       <translation type="unfinished"> * Unsupported Vulkan Version</translation>
     </message>
+    <message>
+      <source>100%</source>
+      <translation type="unfinished">100%</translation>
+    </message>
+    <message>
+      <source>Experimental Features</source>
+      <translation type="unfinished">Experimental Features</translation>
+    </message>
+    <message>
+      <source>WARNING: These features are experimental and should not be enabled unless you were told to, or a game requires it. Please ask in the shadPS4 Discord server if you have any questions.</source>
+      <translation type="unfinished">WARNING: These features are experimental and should not be enabled unless you were told to, or a game requires it. Please ask in the shadPS4 Discord server if you have any questions.</translation>
+    </message>
+    <message>
+      <source>Enable Background Controller Input</source>
+      <translation type="unfinished">Enable Background Controller Input</translation>
+    </message>
+    <message>
+      <source>Enable Controller Background Input:\nAllow shadPS4 to detect controller inputs when the game window is not in focus.</source>
+      <translation type="unfinished">Enable Controller Background Input:\nAllow shadPS4 to detect controller inputs when the game window is not in focus.</translation>
+    </message>
+    <message>
+      <source>Crash Diagnostics:\nCreates a .yaml file with info about the Vulkan state at the time of crashing.\nUseful for debugging &apos;Device lost&apos; errors. If you have this enabled, you should enable Host AND Guest Debug Markers.\nYou need Vulkan Validation Layers enabled and the Vulkan SDK for this to work.</source>
+      <translation type="unfinished">Crash Diagnostics:\nCreates a .yaml file with info about the Vulkan state at the time of crashing.\nUseful for debugging &apos;Device lost&apos; errors. If you have this enabled, you should enable Host AND Guest Debug Markers.\nYou need Vulkan Validation Layers enabled and the Vulkan SDK for this to work.</translation>
+    </message>
   </context>
   <context>
     <name>TrophyViewer</name>
@@ -2080,6 +2212,77 @@
     <message>
       <source>Show Hidden Trophies</source>
       <translation>顯示隱藏的獎盃</translation>
+    </message>
+  </context>
+  <context>
+    <name>hotkeys</name>
+    <message>
+      <source>Customize Hotkeys</source>
+      <translation type="unfinished">Customize Hotkeys</translation>
+    </message>
+    <message>
+      <source>Controller Hotkeys</source>
+      <translation type="unfinished">Controller Hotkeys</translation>
+    </message>
+    <message>
+      <source>Show FPS Counter</source>
+      <translation type="unfinished">Show FPS Counter</translation>
+    </message>
+    <message>
+      <source>unmapped</source>
+      <translation type="unfinished">unmapped</translation>
+    </message>
+    <message>
+      <source>Stop Emulator</source>
+      <translation type="unfinished">Stop Emulator</translation>
+    </message>
+    <message>
+      <source>Toggle Fullscreen</source>
+      <translation type="unfinished">Toggle Fullscreen</translation>
+    </message>
+    <message>
+      <source>Toggle Pause</source>
+      <translation type="unfinished">Toggle Pause</translation>
+    </message>
+    <message>
+      <source>Keyboard Hotkeys</source>
+      <translation type="unfinished">Keyboard Hotkeys</translation>
+    </message>
+    <message>
+      <source>Show Fps Counter: F10</source>
+      <translation type="unfinished">Show Fps Counter: F10</translation>
+    </message>
+    <message>
+      <source>Stop Emulator: n/a</source>
+      <translation type="unfinished">Stop Emulator: n/a</translation>
+    </message>
+    <message>
+      <source>Toggle Fullscreen: F11</source>
+      <translation type="unfinished">Toggle Fullscreen: F11</translation>
+    </message>
+    <message>
+      <source>Toggle Pause: F9</source>
+      <translation type="unfinished">Toggle Pause: F9</translation>
+    </message>
+    <message>
+      <source>Tip: Up to three inputs can be assigned for each function</source>
+      <translation type="unfinished">Tip: Up to three inputs can be assigned for each function</translation>
+    </message>
+    <message>
+      <source>Save</source>
+      <translation type="unfinished">Save</translation>
+    </message>
+    <message>
+      <source>Apply</source>
+      <translation type="unfinished">Apply</translation>
+    </message>
+    <message>
+      <source>Cancel</source>
+      <translation type="unfinished">Cancel</translation>
+    </message>
+    <message>
+      <source>Press a button</source>
+      <translation type="unfinished">Press a button</translation>
     </message>
   </context>
 </TS>

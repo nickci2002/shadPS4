@@ -106,7 +106,7 @@ jobs:
     - name: Setup Qt
       uses: jurplel/install-qt-action@v4
       with:
-        version: 6.9.1
+        version: 6.9.2
         host: windows
         target: desktop
         arch: win64_msvc2022_64
@@ -218,13 +218,13 @@ jobs:
     - name: Setup Qt
       uses: jurplel/install-qt-action@v4
       with:
-        version: 6.9.1
+        version: 6.9.2
         host: mac
         target: desktop
         arch: clang_64
         archives: qtbase qttools
         modules: qtmultimedia
-        
+
     - name: Cache CMake Configuration
       uses: actions/cache@v4 
       env: 

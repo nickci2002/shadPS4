@@ -454,32 +454,8 @@
       <translation>使用每个游戏的配置</translation>
     </message>
     <message>
-      <source>L1 / LB</source>
-      <translation>L1 / LB</translation>
-    </message>
-    <message>
-      <source>L2 / LT</source>
-      <translation>L2 / LT</translation>
-    </message>
-    <message>
-      <source>Back</source>
-      <translation>Back</translation>
-    </message>
-    <message>
-      <source>R1 / RB</source>
-      <translation>R1 / RB</translation>
-    </message>
-    <message>
-      <source>R2 / RT</source>
-      <translation>R2 / RT</translation>
-    </message>
-    <message>
       <source>L3</source>
       <translation>L3</translation>
-    </message>
-    <message>
-      <source>Options / Start</source>
-      <translation>Options / Start</translation>
     </message>
     <message>
       <source>R3</source>
@@ -488,22 +464,6 @@
     <message>
       <source>Face Buttons</source>
       <translation>功能键（动作键）</translation>
-    </message>
-    <message>
-      <source>Triangle / Y</source>
-      <translation>三角 / Y</translation>
-    </message>
-    <message>
-      <source>Square / X</source>
-      <translation>方框 / X</translation>
-    </message>
-    <message>
-      <source>Circle / B</source>
-      <translation>圈 / B</translation>
-    </message>
-    <message>
-      <source>Cross / A</source>
-      <translation>叉 / A</translation>
     </message>
     <message>
       <source>Right Stick Deadzone (def:2, max:127)</source>
@@ -564,6 +524,130 @@
     <message>
       <source>Cancel</source>
       <translation>取消</translation>
+    </message>
+    <message>
+      <source>unmapped</source>
+      <translation>未映射</translation>
+    </message>
+    <message>
+      <source>L1</source>
+      <translation>L1</translation>
+    </message>
+    <message>
+      <source>R1</source>
+      <translation>R1</translation>
+    </message>
+    <message>
+      <source>L2</source>
+      <translation>L2</translation>
+    </message>
+    <message>
+      <source>Options</source>
+      <translation>选项</translation>
+    </message>
+    <message>
+      <source>R2</source>
+      <translation>R2</translation>
+    </message>
+    <message>
+      <source>Touchpad Left</source>
+      <translation>触摸板左侧</translation>
+    </message>
+    <message>
+      <source>Touchpad Center</source>
+      <translation>触控板中间</translation>
+    </message>
+    <message>
+      <source>Touchpad Right</source>
+      <translation>触摸板右侧</translation>
+    </message>
+    <message>
+      <source>Triangle</source>
+      <translation>三角</translation>
+    </message>
+    <message>
+      <source>Square</source>
+      <translation>方框</translation>
+    </message>
+    <message>
+      <source>Circle</source>
+      <translation>圈</translation>
+    </message>
+    <message>
+      <source>Cross</source>
+      <translation>叉</translation>
+    </message>
+    <message>
+      <source>Cannot bind any unique input more than once. Duplicate inputs mapped to the following buttons:
+
+%1</source>
+      <translation>不能多次绑定任何同一输入。请重新映射以下按键的输入：
+
+%1</translation>
+    </message>
+    <message>
+      <source>Press a button</source>
+      <translation>请按一个按键</translation>
+    </message>
+    <message>
+      <source>Move analog stick</source>
+      <translation>移动模拟摇杆</translation>
+    </message>
+    <message>
+      <source>L1 and L2</source>
+      <translation>L1和L2</translation>
+    </message>
+    <message>
+      <source>Active Gamepad</source>
+      <translation>主手柄</translation>
+    </message>
+    <message>
+      <source>Gamepad ID</source>
+      <translation>手柄 ID</translation>
+    </message>
+    <message>
+      <source>Default Gamepad</source>
+      <translation>默认手柄</translation>
+    </message>
+    <message>
+      <source>No default selected</source>
+      <translation>没有选择默认项</translation>
+    </message>
+    <message>
+      <source>n/a</source>
+      <translation>不可用</translation>
+    </message>
+    <message>
+      <source>Set Active Gamepad as Default</source>
+      <translation>设置主手柄为默认值</translation>
+    </message>
+    <message>
+      <source>Remove Default Gamepad</source>
+      <translation>移除默认手柄</translation>
+    </message>
+    <message>
+      <source>R1 and R2</source>
+      <translation>R1 和 R2</translation>
+    </message>
+    <message>
+      <source>ID: </source>
+      <translation>ID:  </translation>
+    </message>
+    <message>
+      <source>Default Controller Selected</source>
+      <translation>已选中默认控制器</translation>
+    </message>
+    <message>
+      <source>Active controller set as default</source>
+      <translation>主控制器设置为默认</translation>
+    </message>
+    <message>
+      <source>Default Controller Removed</source>
+      <translation>默认控制器已移除</translation>
+    </message>
+    <message>
+      <source>Default controller setting removed</source>
+      <translation>默认控制器设置已删除</translation>
     </message>
   </context>
   <context>
@@ -747,6 +831,10 @@
     <message>
       <source>Last updated</source>
       <translation>最后更新</translation>
+    </message>
+    <message>
+      <source>Favorite</source>
+      <translation>收藏</translation>
     </message>
   </context>
   <context>
@@ -950,6 +1038,14 @@
       <source>SFO Viewer for </source>
       <translation>SFO 查看器 - </translation>
     </message>
+    <message>
+      <source>Remove from Favorites</source>
+      <translation>从收藏中移除</translation>
+    </message>
+    <message>
+      <source>Add to Favorites</source>
+      <translation>添加至收藏</translation>
+    </message>
   </context>
   <context>
     <name>HelpDialog</name>
@@ -1055,10 +1151,6 @@
     <message>
       <source>L3</source>
       <translation>L3</translation>
-    </message>
-    <message>
-      <source>Touchpad Click</source>
-      <translation>触摸板点击</translation>
     </message>
     <message>
       <source>Mouse to Joystick</source>
@@ -1184,9 +1276,21 @@
       <source>Cannot bind any unique input more than once. Duplicate inputs mapped to the following buttons:
 
 %1</source>
-      <translation type="unfinished">Cannot bind any unique input more than once. Duplicate inputs mapped to the following buttons:
+      <translation>不能多次绑定任何同一输入。请重新映射以下按键的输入：
 
 %1</translation>
+    </message>
+    <message>
+      <source>Touchpad Left</source>
+      <translation>触摸板左侧</translation>
+    </message>
+    <message>
+      <source>Touchpad Center</source>
+      <translation>触摸板中心</translation>
+    </message>
+    <message>
+      <source>Touchpad Right</source>
+      <translation>触摸板右侧</translation>
     </message>
   </context>
   <context>
@@ -1447,6 +1551,10 @@
       <source>Show Labels Under Icons</source>
       <translation>显示图标下的标签</translation>
     </message>
+    <message>
+      <source>Customize Hotkeys</source>
+      <translation>自定义快捷键</translation>
+    </message>
   </context>
   <context>
     <name>SettingsDialog</name>
@@ -1539,16 +1647,24 @@
       <translation>光标隐藏闲置时长</translation>
     </message>
     <message>
+      <source>Microphone</source>
+      <translation>麦克风</translation>
+    </message>
+    <message>
+      <source>None</source>
+      <translation>无</translation>
+    </message>
+    <message>
+      <source>Default Device</source>
+      <translation>默认设备</translation>
+    </message>
+    <message>
       <source>s</source>
       <translation>秒</translation>
     </message>
     <message>
       <source>Controller</source>
       <translation>手柄</translation>
-    </message>
-    <message>
-      <source>Back Button Behavior</source>
-      <translation>返回按钮行为</translation>
     </message>
     <message>
       <source>Graphics</source>
@@ -1641,6 +1757,14 @@
     <message>
       <source>Guest Debug Markers</source>
       <translation>Geust 调试标记</translation>
+    </message>
+    <message>
+      <source>Enable Readbacks</source>
+      <translation>启用Readbacks</translation>
+    </message>
+    <message>
+      <source>Enable Readback Linear Images</source>
+      <translation>启用Readback线性图像</translation>
     </message>
     <message>
       <source>Update</source>
@@ -1787,10 +1911,6 @@
       <translation>光标隐藏闲置时长：\n光标自动隐藏之前的闲置时长。</translation>
     </message>
     <message>
-      <source>Back Button Behavior:\nSets the controller&apos;s back button to emulate tapping the specified position on the PS4 touchpad.</source>
-      <translation>返回按钮行为：\n设置手柄的返回按钮模拟在 PS4 触控板上指定位置的点击。</translation>
-    </message>
-    <message>
       <source>Display Compatibility Data:\nDisplays game compatibility information in table view. Enable &quot;Update Compatibility On Startup&quot; to get up-to-date information.</source>
       <translation>显示兼容性数据：\n在列表视图中显示游戏兼容性信息。启用“启动时更新兼容性数据库”以获取最新信息。</translation>
     </message>
@@ -1813,22 +1933,6 @@
     <message>
       <source>Always</source>
       <translation>始终</translation>
-    </message>
-    <message>
-      <source>Touchpad Left</source>
-      <translation>触控板左侧</translation>
-    </message>
-    <message>
-      <source>Touchpad Right</source>
-      <translation>触控板右侧</translation>
-    </message>
-    <message>
-      <source>Touchpad Center</source>
-      <translation>触控板中间</translation>
-    </message>
-    <message>
-      <source>None</source>
-      <translation>无</translation>
     </message>
     <message>
       <source>Graphics Device:\nOn multiple GPU systems, select the GPU the emulator will use from the drop down list,\nor select &quot;Auto Select&quot; to automatically determine it.</source>
@@ -1887,8 +1991,12 @@
       <translation>收集着色器：\n您需要启用此功能才能使用调试菜单（Ctrl + F10）编辑着色器。</translation>
     </message>
     <message>
-      <source>Crash Diagnostics:\nCreates a .yaml file with info about the Vulkan state at the time of crashing.\nUseful for debugging &apos;Device lost&apos; errors. If you have this enabled, you should enable Host AND Guest Debug Markers.\nDoes not work on Intel GPUs.\nYou need Vulkan Validation Layers enabled and the Vulkan SDK for this to work.</source>
-      <translation>崩溃诊断：\n创建一个包含崩溃时 Vulkan 状态的 .yaml 文件。\n对于调试“Device lost”错误很有用。如果您启用了此功能，您应该同时启用 Host 和 Guest 调试标记。\n此功能在 Intel 显卡上不可用。\n您需要启用 Vulkan 验证层并安装 Vulkan SDK 才能使用此功能。</translation>
+      <source>Enable Readbacks:\nEnable GPU memory readbacks and writebacks.\nThis is required for proper behavior in some games.\nMight cause stability and/or performance issues.</source>
+      <translation>启用Readbacks：\n启用 GPU 内存回读和回写功能。\n这是某些游戏中恰当运行所必需的。\n可能会导致稳定性以及性能问题。</translation>
+    </message>
+    <message>
+      <source>Enable Readback Linear Images:\nEnables async downloading of GPU modified linear images.\nMight fix issues in some games.</source>
+      <translation>启用Readback线性图像：\n启用异步下载GPU修改的线性图像。\n可能会修复一些游戏中的问题。</translation>
     </message>
     <message>
       <source>Copy GPU Buffers:\nGets around race conditions involving GPU submits.\nMay or may not help with PM4 type 0 crashes.</source>
@@ -2054,6 +2162,30 @@
       <source> * Unsupported Vulkan Version</source>
       <translation> * 不支持的 Vulkan 版本</translation>
     </message>
+    <message>
+      <source>100%</source>
+      <translation>100%</translation>
+    </message>
+    <message>
+      <source>Experimental Features</source>
+      <translation>实验性功能</translation>
+    </message>
+    <message>
+      <source>WARNING: These features are experimental and should not be enabled unless you were told to, or a game requires it. Please ask in the shadPS4 Discord server if you have any questions.</source>
+      <translation>警告：这些功能是实验性的，除非您被告知或者游戏需要的话，否则不应启用。 如果您有任何疑问，请在 shadPS4 Discord 服务器上提问。</translation>
+    </message>
+    <message>
+      <source>Enable Background Controller Input</source>
+      <translation>启用后台控制器输入</translation>
+    </message>
+    <message>
+      <source>Enable Controller Background Input:\nAllow shadPS4 to detect controller inputs when the game window is not in focus.</source>
+      <translation>启用控制器后台输入:\n允许ShadPS4在游戏窗口未焦点时检测控制器输入。</translation>
+    </message>
+    <message>
+      <source>Crash Diagnostics:\nCreates a .yaml file with info about the Vulkan state at the time of crashing.\nUseful for debugging &apos;Device lost&apos; errors. If you have this enabled, you should enable Host AND Guest Debug Markers.\nYou need Vulkan Validation Layers enabled and the Vulkan SDK for this to work.</source>
+      <translation>崩溃诊断：\n创建一个包含崩溃时 Vulkan 状态的 .yaml 文件。\n对于调试“Device lost”错误很有用。如果您启用了此功能，您应该同时启用 Host 和 Guest 调试标记。\n此功能在 Intel 显卡上不可用。\n您需要启用 Vulkan 验证层和 Vulkan SDK 才能使用此功能。</translation>
+    </message>
   </context>
   <context>
     <name>TrophyViewer</name>
@@ -2080,6 +2212,77 @@
     <message>
       <source>Show Hidden Trophies</source>
       <translation>显示隐藏奖杯</translation>
+    </message>
+  </context>
+  <context>
+    <name>hotkeys</name>
+    <message>
+      <source>Customize Hotkeys</source>
+      <translation>自定义快捷键</translation>
+    </message>
+    <message>
+      <source>Controller Hotkeys</source>
+      <translation>控制器快捷键</translation>
+    </message>
+    <message>
+      <source>Show FPS Counter</source>
+      <translation>显示FPS计数器</translation>
+    </message>
+    <message>
+      <source>unmapped</source>
+      <translation>未映射</translation>
+    </message>
+    <message>
+      <source>Stop Emulator</source>
+      <translation>停止模拟器</translation>
+    </message>
+    <message>
+      <source>Toggle Fullscreen</source>
+      <translation>全屏显示切换</translation>
+    </message>
+    <message>
+      <source>Toggle Pause</source>
+      <translation>切换暂停</translation>
+    </message>
+    <message>
+      <source>Keyboard Hotkeys</source>
+      <translation>键盘快捷键</translation>
+    </message>
+    <message>
+      <source>Show Fps Counter: F10</source>
+      <translation>显示FPS 计数器：F10</translation>
+    </message>
+    <message>
+      <source>Stop Emulator: n/a</source>
+      <translation>停止模拟器： 不可用</translation>
+    </message>
+    <message>
+      <source>Toggle Fullscreen: F11</source>
+      <translation>切换全屏： F11</translation>
+    </message>
+    <message>
+      <source>Toggle Pause: F9</source>
+      <translation>切换暂停：F9</translation>
+    </message>
+    <message>
+      <source>Tip: Up to three inputs can be assigned for each function</source>
+      <translation>提示：最多可以为每个功能分配三个输入</translation>
+    </message>
+    <message>
+      <source>Save</source>
+      <translation>保存</translation>
+    </message>
+    <message>
+      <source>Apply</source>
+      <translation>应用</translation>
+    </message>
+    <message>
+      <source>Cancel</source>
+      <translation>取消</translation>
+    </message>
+    <message>
+      <source>Press a button</source>
+      <translation>请按一个按键</translation>
     </message>
   </context>
 </TS>

@@ -8,6 +8,7 @@
 #include <coroutine>
 #include <exception>
 #include <mutex>
+#include <semaphore>
 #include <span>
 #include <thread>
 #include <vector>
@@ -21,7 +22,7 @@
 #include "common/unique_function.h"
 #include "shader_recompiler/params.h"
 #include "video_core/amdgpu/pixel_format.h"
-#include "video_core/amdgpu/resource.h"
+#include "video_core/amdgpu/tiling.h"
 #include "video_core/amdgpu/types.h"
 
 namespace Vulkan {
@@ -87,7 +88,7 @@ struct Liverpool {
         }
     };
 
-    static const BinaryInfo& SearchBinaryInfo(const u32* code, size_t search_limit = 0x1000) {
+    static const BinaryInfo& SearchBinaryInfo(const u32* code, size_t search_limit = 0x2000) {
         constexpr u32 token_mov_vcchi = 0xBEEB03FF;
 
         if (code[0] == token_mov_vcchi) {
@@ -303,6 +304,14 @@ struct Liverpool {
         }
     };
 
+    struct LineControl {
+        u32 width_fixed_point;
+
+        float Width() const {
+            return static_cast<float>(width_fixed_point) / 8.0;
+        }
+    };
+
     struct ModeControl {
         s32 msaa_enable : 1;
         s32 vport_scissor_enable : 1;
@@ -417,7 +426,7 @@ struct Liverpool {
             BitField<0, 2, ZFormat> format;
             BitField<2, 2, u32> num_samples;
             BitField<13, 3, u32> tile_split;
-            BitField<20, 3, u32> tile_mode_index;
+            BitField<20, 3, TileMode> tile_mode_index;
             BitField<23, 4, u32> decompress_on_n_zplanes;
             BitField<27, 1, u32> allow_expclear;
             BitField<28, 1, u32> read_size;
@@ -493,6 +502,14 @@ struct Liverpool {
             const auto bpe = NumBits() >> 3; // in bytes
             return (depth_slice.tile_max + 1) * 64 * bpe * NumSamples();
         }
+
+        TileMode GetTileMode() const {
+            return z_info.tile_mode_index.Value();
+        }
+
+        bool IsTiled() const {
+            return GetTileMode() != TileMode::DisplayLinearAligned;
+        }
     };
 
     enum class ClipSpace : u32 {
@@ -512,9 +529,16 @@ struct Liverpool {
         BitField<19, 1, ClipSpace> clip_space;
         BitField<21, 1, PrimKillCond> vtx_kill_or;
         BitField<22, 1, u32> dx_rasterization_kill;
-        BitField<23, 1, u32> dx_linear_attr_clip_enable;
+        BitField<24, 1, u32> dx_linear_attr_clip_enable;
         BitField<26, 1, u32> zclip_near_disable;
-        BitField<26, 1, u32> zclip_far_disable;
+        BitField<27, 1, u32> zclip_far_disable;
+
+        bool ZclipEnable() const {
+            if (zclip_near_disable != zclip_far_disable) {
+                return false;
+            }
+            return !zclip_near_disable;
+        }
     };
 
     enum class PolygonMode : u32 {
@@ -737,12 +761,7 @@ struct Liverpool {
         u32 data_w;
     };
 
-    struct BlendConstants {
-        float red;
-        float green;
-        float blue;
-        float alpha;
-    };
+    using BlendConstants = std::array<float, 4>;
 
     union BlendControl {
         enum class BlendFactor : u32 {
@@ -775,6 +794,7 @@ struct Liverpool {
             ReverseSubtract = 4,
         };
 
+        u32 raw;
         BitField<0, 5, BlendFactor> color_src_factor;
         BitField<5, 3, BlendFunc> color_func;
         BitField<8, 5, BlendFactor> color_dst_factor;
@@ -784,6 +804,10 @@ struct Liverpool {
         BitField<29, 1, u32> separate_alpha_blend;
         BitField<30, 1, u32> enable;
         BitField<31, 1, u32> disable_rop3;
+
+        bool operator==(const BlendControl& other) const {
+            return raw == other.raw;
+        }
     };
 
     union ColorControl {
@@ -795,11 +819,29 @@ struct Liverpool {
             Err = 4u,
             FmaskDecompress = 5u,
         };
+        enum class LogicOp : u32 {
+            Clear = 0x00,
+            Nor = 0x11,
+            AndInverted = 0x22,
+            CopyInverted = 0x33,
+            AndReverse = 0x44,
+            Invert = 0x55,
+            Xor = 0x66,
+            Nand = 0x77,
+            And = 0x88,
+            Equiv = 0x99,
+            Noop = 0xAA,
+            OrInverted = 0xBB,
+            Copy = 0xCC,
+            OrReverse = 0xDD,
+            Or = 0xEE,
+            Set = 0xFF,
+        };
 
         BitField<0, 1, u32> disable_dual_quad;
         BitField<3, 1, u32> degamma_enable;
         BitField<4, 3, OperationMode> mode;
-        BitField<16, 8, u32> rop3;
+        BitField<16, 8, LogicOp> rop3;
     };
 
     struct ColorBuffer {
@@ -859,7 +901,7 @@ struct Liverpool {
             u32 u32all;
         } info;
         union Color0Attrib {
-            BitField<0, 5, TilingMode> tile_mode_index;
+            BitField<0, 5, TileMode> tile_mode_index;
             BitField<5, 5, u32> fmask_tile_mode_index;
             BitField<10, 2, u32> fmask_bank_height;
             BitField<12, 3, u32> num_samples_log2;
@@ -882,7 +924,7 @@ struct Liverpool {
         INSERT_PADDING_WORDS(2);
 
         operator bool() const {
-            return info.format != DataFormat::FormatInvalid;
+            return base_address && info.format != DataFormat::FormatInvalid;
         }
 
         u32 Pitch() const {
@@ -920,13 +962,13 @@ struct Liverpool {
             return slice_size;
         }
 
-        TilingMode GetTilingMode() const {
-            return info.linear_general ? TilingMode::Display_Linear
+        TileMode GetTileMode() const {
+            return info.linear_general ? TileMode::DisplayLinearAligned
                                        : attrib.tile_mode_index.Value();
         }
 
         bool IsTiled() const {
-            return GetTilingMode() != TilingMode::Display_Linear;
+            return GetTileMode() != TileMode::DisplayLinearAligned;
         }
 
         [[nodiscard]] DataFormat GetDataFmt() const {
@@ -980,7 +1022,6 @@ struct Liverpool {
             return RemapSwizzle(info.format, mrt_swizzle);
         }
 
-    private:
         [[nodiscard]] NumberFormat GetFixedNumberFormat() const {
             // There is a small difference between T# and CB number types, account for it.
             return info.number_type == NumberFormat::SnormNz ? NumberFormat::Srgb
@@ -1368,7 +1409,9 @@ struct Liverpool {
             PolygonControl polygon_control;
             ViewportControl viewport_control;
             VsOutputControl vs_output_control;
-            INSERT_PADDING_WORDS(0xA287 - 0xA207 - 1);
+            INSERT_PADDING_WORDS(0xA287 - 0xA207 - 6);
+            LineControl line_control;
+            INSERT_PADDING_WORDS(4);
             HsTessFactorClamp hs_clamp;
             INSERT_PADDING_WORDS(0xA290 - 0xA287 - 2);
             GsMode vgt_gs_mode;
@@ -1512,14 +1555,32 @@ public:
         rasterizer = rasterizer_;
     }
 
-    void SendCommand(Common::UniqueFunction<void>&& func) {
-        std::scoped_lock lk{submit_mutex};
-        command_queue.emplace(std::move(func));
-        ++num_commands;
-        submit_cv.notify_one();
+    template <bool wait_done = false>
+    void SendCommand(auto&& func) {
+        if (std::this_thread::get_id() == gpu_id) {
+            return func();
+        }
+        if constexpr (wait_done) {
+            std::binary_semaphore sem{0};
+            {
+                std::scoped_lock lk{submit_mutex};
+                command_queue.emplace([&sem, &func] {
+                    func();
+                    sem.release();
+                });
+                ++num_commands;
+                submit_cv.notify_one();
+            }
+            sem.acquire();
+        } else {
+            std::scoped_lock lk{submit_mutex};
+            command_queue.emplace(std::move(func));
+            ++num_commands;
+            submit_cv.notify_one();
+        }
     }
 
-    void reserveCopyBufferSpace() {
+    void ReserveCopyBufferSpace() {
         GpuQueue& gfx_queue = mapped_queues[GfxQueueId];
         std::scoped_lock<std::mutex> lk(gfx_queue.m_access);
 
@@ -1581,8 +1642,9 @@ private:
     Task ProcessGraphics(std::span<const u32> dcb, std::span<const u32> ccb);
     Task ProcessCeUpdate(std::span<const u32> ccb);
     template <bool is_indirect = false>
-    Task ProcessCompute(const u32* acb, u32 acb_dwords, u32 vqid);
+    Task ProcessCompute(std::span<const u32> acb, u32 vqid);
 
+    void ProcessCommands();
     void Process(std::stop_token stoken);
 
     struct GpuQueue {
@@ -1626,6 +1688,7 @@ private:
     std::mutex submit_mutex;
     std::condition_variable_any submit_cv;
     std::queue<Common::UniqueFunction<void>> command_queue{};
+    std::thread::id gpu_id;
     int curr_qid{-1};
 };
 
@@ -1674,6 +1737,7 @@ static_assert(GFX6_3D_REG_INDEX(color_control) == 0xA202);
 static_assert(GFX6_3D_REG_INDEX(clipper_control) == 0xA204);
 static_assert(GFX6_3D_REG_INDEX(viewport_control) == 0xA206);
 static_assert(GFX6_3D_REG_INDEX(vs_output_control) == 0xA207);
+static_assert(GFX6_3D_REG_INDEX(line_control) == 0xA282);
 static_assert(GFX6_3D_REG_INDEX(hs_clamp) == 0xA287);
 static_assert(GFX6_3D_REG_INDEX(vgt_gs_mode) == 0xA290);
 static_assert(GFX6_3D_REG_INDEX(mode_control) == 0xA292);

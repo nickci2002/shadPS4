@@ -454,32 +454,8 @@
       <translation>Використовувати ігрові конфігурації</translation>
     </message>
     <message>
-      <source>L1 / LB</source>
-      <translation>L1 / Лівий Бампер</translation>
-    </message>
-    <message>
-      <source>L2 / LT</source>
-      <translation>L2 / Лівий Тригер</translation>
-    </message>
-    <message>
-      <source>Back</source>
-      <translation>Назад</translation>
-    </message>
-    <message>
-      <source>R1 / RB</source>
-      <translation>R1 / Правий Бампер</translation>
-    </message>
-    <message>
-      <source>R2 / RT</source>
-      <translation>R2 / Правий Тригер</translation>
-    </message>
-    <message>
       <source>L3</source>
       <translation>Кнопка лівого стику</translation>
-    </message>
-    <message>
-      <source>Options / Start</source>
-      <translation>Опції / Старт</translation>
     </message>
     <message>
       <source>R3</source>
@@ -488,22 +464,6 @@
     <message>
       <source>Face Buttons</source>
       <translation>Лицьові кнопки</translation>
-    </message>
-    <message>
-      <source>Triangle / Y</source>
-      <translation>Трикутник / Y</translation>
-    </message>
-    <message>
-      <source>Square / X</source>
-      <translation>Квадрат / X</translation>
-    </message>
-    <message>
-      <source>Circle / B</source>
-      <translation>Коло / B</translation>
-    </message>
-    <message>
-      <source>Cross / A</source>
-      <translation>Хрест / A</translation>
     </message>
     <message>
       <source>Right Stick Deadzone (def:2, max:127)</source>
@@ -564,6 +524,130 @@
     <message>
       <source>Cancel</source>
       <translation>Відмінити</translation>
+    </message>
+    <message>
+      <source>unmapped</source>
+      <translation>Не назначено</translation>
+    </message>
+    <message>
+      <source>L1</source>
+      <translation>L1</translation>
+    </message>
+    <message>
+      <source>R1</source>
+      <translation>R1</translation>
+    </message>
+    <message>
+      <source>L2</source>
+      <translation>L2</translation>
+    </message>
+    <message>
+      <source>Options</source>
+      <translation>Опції</translation>
+    </message>
+    <message>
+      <source>R2</source>
+      <translation>R2</translation>
+    </message>
+    <message>
+      <source>Touchpad Left</source>
+      <translation>Ліва сторона сенсору</translation>
+    </message>
+    <message>
+      <source>Touchpad Center</source>
+      <translation>Середина сенсору</translation>
+    </message>
+    <message>
+      <source>Touchpad Right</source>
+      <translation>Права сторона сенсору</translation>
+    </message>
+    <message>
+      <source>Triangle</source>
+      <translation>Трикутник</translation>
+    </message>
+    <message>
+      <source>Square</source>
+      <translation>Квадрат</translation>
+    </message>
+    <message>
+      <source>Circle</source>
+      <translation>Коло</translation>
+    </message>
+    <message>
+      <source>Cross</source>
+      <translation>Хрест</translation>
+    </message>
+    <message>
+      <source>Cannot bind any unique input more than once. Duplicate inputs mapped to the following buttons:
+
+%1</source>
+      <translation>Неможливо призначити одну й ту саму кнопку більше одного разу. Повторне призначення виявлено для таких кнопок:
+
+%1</translation>
+    </message>
+    <message>
+      <source>Press a button</source>
+      <translation>Натисніть кнопку</translation>
+    </message>
+    <message>
+      <source>Move analog stick</source>
+      <translation>Перемістити аналоговий стік</translation>
+    </message>
+    <message>
+      <source>L1 and L2</source>
+      <translation>L1 і L2</translation>
+    </message>
+    <message>
+      <source>Active Gamepad</source>
+      <translation>Активний контролер</translation>
+    </message>
+    <message>
+      <source>Gamepad ID</source>
+      <translation>ID контролера</translation>
+    </message>
+    <message>
+      <source>Default Gamepad</source>
+      <translation>Стандартний контролер</translation>
+    </message>
+    <message>
+      <source>No default selected</source>
+      <translation>Стандартне не вибрано</translation>
+    </message>
+    <message>
+      <source>n/a</source>
+      <translation>n/a</translation>
+    </message>
+    <message>
+      <source>Set Active Gamepad as Default</source>
+      <translation>Встановити активний контролер за замовчуванням</translation>
+    </message>
+    <message>
+      <source>Remove Default Gamepad</source>
+      <translation>Видалити стандартний контролер</translation>
+    </message>
+    <message>
+      <source>R1 and R2</source>
+      <translation>R1 і R2</translation>
+    </message>
+    <message>
+      <source>ID: </source>
+      <translation>ID: </translation>
+    </message>
+    <message>
+      <source>Default Controller Selected</source>
+      <translation>Вибрано стандартний контролер</translation>
+    </message>
+    <message>
+      <source>Active controller set as default</source>
+      <translation>Активний контролер встановлено за замовчуванням</translation>
+    </message>
+    <message>
+      <source>Default Controller Removed</source>
+      <translation>Видалено стандартний контролер</translation>
+    </message>
+    <message>
+      <source>Default controller setting removed</source>
+      <translation>Стандартні налаштування контролера видалено</translation>
     </message>
   </context>
   <context>
@@ -747,6 +831,10 @@
     <message>
       <source>Last updated</source>
       <translation>Останнє оновлення</translation>
+    </message>
+    <message>
+      <source>Favorite</source>
+      <translation>Обране</translation>
     </message>
   </context>
   <context>
@@ -950,6 +1038,14 @@
       <source>SFO Viewer for </source>
       <translation>Перегляд SFO </translation>
     </message>
+    <message>
+      <source>Remove from Favorites</source>
+      <translation>Видалити з обраного</translation>
+    </message>
+    <message>
+      <source>Add to Favorites</source>
+      <translation>Додати до обраного</translation>
+    </message>
   </context>
   <context>
     <name>HelpDialog</name>
@@ -1055,10 +1151,6 @@
     <message>
       <source>L3</source>
       <translation>Кнопка лівого стику</translation>
-    </message>
-    <message>
-      <source>Touchpad Click</source>
-      <translation>Натискання на сенсорну панель</translation>
     </message>
     <message>
       <source>Mouse to Joystick</source>
@@ -1184,9 +1276,21 @@
       <source>Cannot bind any unique input more than once. Duplicate inputs mapped to the following buttons:
 
 %1</source>
-      <translation type="unfinished">Cannot bind any unique input more than once. Duplicate inputs mapped to the following buttons:
+      <translation>Унікальний вхід не може бути призначений двічі. Дублікати на кнопках:
 
 %1</translation>
+    </message>
+    <message>
+      <source>Touchpad Left</source>
+      <translation>Ліва сторона сенсору</translation>
+    </message>
+    <message>
+      <source>Touchpad Center</source>
+      <translation>Середина сенсору</translation>
+    </message>
+    <message>
+      <source>Touchpad Right</source>
+      <translation>Права сторона сенсору</translation>
     </message>
   </context>
   <context>
@@ -1447,6 +1551,10 @@
       <source>Show Labels Under Icons</source>
       <translation>Показати найменування під іконками</translation>
     </message>
+    <message>
+      <source>Customize Hotkeys</source>
+      <translation>Персоналізувати гарячі клавіші</translation>
+    </message>
   </context>
   <context>
     <name>SettingsDialog</name>
@@ -1539,16 +1647,24 @@
       <translation>Тайм-аут приховування курсора при бездіяльності</translation>
     </message>
     <message>
+      <source>Microphone</source>
+      <translation>Мікрофон</translation>
+    </message>
+    <message>
+      <source>None</source>
+      <translation>Ні</translation>
+    </message>
+    <message>
+      <source>Default Device</source>
+      <translation>Стандартний Пристрій</translation>
+    </message>
+    <message>
       <source>s</source>
       <translation>сек</translation>
     </message>
     <message>
       <source>Controller</source>
       <translation>Контролер</translation>
-    </message>
-    <message>
-      <source>Back Button Behavior</source>
-      <translation>Перепризначення кнопки назад</translation>
     </message>
     <message>
       <source>Graphics</source>
@@ -1641,6 +1757,14 @@
     <message>
       <source>Guest Debug Markers</source>
       <translation>Гостьові маркери налагодження</translation>
+    </message>
+    <message>
+      <source>Enable Readbacks</source>
+      <translation>Увімкнути відгуки</translation>
+    </message>
+    <message>
+      <source>Enable Readback Linear Images</source>
+      <translation>Увімкнути відгуки лінійних зображень</translation>
     </message>
     <message>
       <source>Update</source>
@@ -1787,10 +1911,6 @@
       <translation>Встановіть час, через який курсор зникне в разі бездіяльності.</translation>
     </message>
     <message>
-      <source>Back Button Behavior:\nSets the controller&apos;s back button to emulate tapping the specified position on the PS4 touchpad.</source>
-      <translation>Перепризначення кнопки «Назад»:\nНалаштовує кнопку «Назад» контролера на емуляцію натискання на зазначену область на сенсорній панелі контролера PS4.</translation>
-    </message>
-    <message>
       <source>Display Compatibility Data:\nDisplays game compatibility information in table view. Enable &quot;Update Compatibility On Startup&quot; to get up-to-date information.</source>
       <translation>Відображати данні ігрової сумістністі:\nВідображає інформацію про сумісність ігор у вигляді таблиці. Увімкніть &quot;Оновлення даних ігрової сумісності під час запуску&quot; для отримання актуальної інформації.</translation>
     </message>
@@ -1813,22 +1933,6 @@
     <message>
       <source>Always</source>
       <translation>Завжди</translation>
-    </message>
-    <message>
-      <source>Touchpad Left</source>
-      <translation>Ліва сторона тачпаду</translation>
-    </message>
-    <message>
-      <source>Touchpad Right</source>
-      <translation>Права сторона тачпаду</translation>
-    </message>
-    <message>
-      <source>Touchpad Center</source>
-      <translation>Середина тачпаду</translation>
-    </message>
-    <message>
-      <source>None</source>
-      <translation>Без змін</translation>
     </message>
     <message>
       <source>Graphics Device:\nOn multiple GPU systems, select the GPU the emulator will use from the drop down list,\nor select &quot;Auto Select&quot; to automatically determine it.</source>
@@ -1887,8 +1991,12 @@
       <translation>Збирати шейдери:\nВам потрібно увімкнути цю опцію, щоб редагувати шейдери за допомогою меню налагодження (Ctrl + F10).</translation>
     </message>
     <message>
-      <source>Crash Diagnostics:\nCreates a .yaml file with info about the Vulkan state at the time of crashing.\nUseful for debugging &apos;Device lost&apos; errors. If you have this enabled, you should enable Host AND Guest Debug Markers.\nDoes not work on Intel GPUs.\nYou need Vulkan Validation Layers enabled and the Vulkan SDK for this to work.</source>
-      <translation>Діагностика збоїв:\nСтворює .yaml файл з інформацією про стан Vulkan на момент збою.\nКорисно для налагодження помилок &apos;Device lost&apos;. Якщо у вас увімкнено цей параметр, вам слід увімкнути маркери налагодження Хоста ТА Гостя.\nНе працює на графічних процесорах Intel.\nДля цього вам потрібно увімкнути шари валідації Vulkan і мати Vulkan SDK.</translation>
+      <source>Enable Readbacks:\nEnable GPU memory readbacks and writebacks.\nThis is required for proper behavior in some games.\nMight cause stability and/or performance issues.</source>
+      <translation>Увімкнути відгуки:\nувімкнути відгуки та запис пам'яті GPU\nЦе потрібно для коректної поведінки у деяких іграх.\nМоже спричинити проблеми зі стабільністю та/або продуктивністю.</translation>
+    </message>
+    <message>
+      <source>Enable Readback Linear Images:\nEnables async downloading of GPU modified linear images.\nMight fix issues in some games.</source>
+      <translation>Увімкнути відгуки лінійних зображень:\nУвімкнути асинхронне завантаження зображень, модифікованих GPU.\nМоже виправити проблеми у деяких іграх.</translation>
     </message>
     <message>
       <source>Copy GPU Buffers:\nGets around race conditions involving GPU submits.\nMay or may not help with PM4 type 0 crashes.</source>
@@ -2052,7 +2160,31 @@
     </message>
     <message>
       <source> * Unsupported Vulkan Version</source>
-      <translation type="unfinished"> * Unsupported Vulkan Version</translation>
+      <translation> * Непідтримувана версія Vulkan</translation>
+    </message>
+    <message>
+      <source>100%</source>
+      <translation>100%</translation>
+    </message>
+    <message>
+      <source>Experimental Features</source>
+      <translation>Експериментальні функції</translation>
+    </message>
+    <message>
+      <source>WARNING: These features are experimental and should not be enabled unless you were told to, or a game requires it. Please ask in the shadPS4 Discord server if you have any questions.</source>
+      <translation>ПОПЕРЕДЖЕННЯ: Ці функції є експериментальними і не повинні бути ввімкнені, якщо вам не було сказано про це, або якщо цього вимагає гра. Будь ласка, запитуйте на Discord сервері  shadPS4, якщо у вас виникнуть запитання.</translation>
+    </message>
+    <message>
+      <source>Enable Background Controller Input</source>
+      <translation type="unfinished">Enable Background Controller Input</translation>
+    </message>
+    <message>
+      <source>Enable Controller Background Input:\nAllow shadPS4 to detect controller inputs when the game window is not in focus.</source>
+      <translation type="unfinished">Enable Controller Background Input:\nAllow shadPS4 to detect controller inputs when the game window is not in focus.</translation>
+    </message>
+    <message>
+      <source>Crash Diagnostics:\nCreates a .yaml file with info about the Vulkan state at the time of crashing.\nUseful for debugging &apos;Device lost&apos; errors. If you have this enabled, you should enable Host AND Guest Debug Markers.\nYou need Vulkan Validation Layers enabled and the Vulkan SDK for this to work.</source>
+      <translation type="unfinished">Crash Diagnostics:\nCreates a .yaml file with info about the Vulkan state at the time of crashing.\nUseful for debugging &apos;Device lost&apos; errors. If you have this enabled, you should enable Host AND Guest Debug Markers.\nYou need Vulkan Validation Layers enabled and the Vulkan SDK for this to work.</translation>
     </message>
   </context>
   <context>
@@ -2080,6 +2212,77 @@
     <message>
       <source>Show Hidden Trophies</source>
       <translation>Показати приховані трофеї</translation>
+    </message>
+  </context>
+  <context>
+    <name>hotkeys</name>
+    <message>
+      <source>Customize Hotkeys</source>
+      <translation>Персоналізувати гарячі клавіші</translation>
+    </message>
+    <message>
+      <source>Controller Hotkeys</source>
+      <translation>Гарячі клавіші контролера</translation>
+    </message>
+    <message>
+      <source>Show FPS Counter</source>
+      <translation>Показати лічильник FPS</translation>
+    </message>
+    <message>
+      <source>unmapped</source>
+      <translation>непризначено</translation>
+    </message>
+    <message>
+      <source>Stop Emulator</source>
+      <translation>Зупинити емулятор</translation>
+    </message>
+    <message>
+      <source>Toggle Fullscreen</source>
+      <translation>Вимкнути повний екран</translation>
+    </message>
+    <message>
+      <source>Toggle Pause</source>
+      <translation>Вимкнути паузу</translation>
+    </message>
+    <message>
+      <source>Keyboard Hotkeys</source>
+      <translation>Гарячі клавіші</translation>
+    </message>
+    <message>
+      <source>Show Fps Counter: F10</source>
+      <translation>Показати лічильник Fps: F10</translation>
+    </message>
+    <message>
+      <source>Stop Emulator: n/a</source>
+      <translation>Зупинити емулятор: n/a</translation>
+    </message>
+    <message>
+      <source>Toggle Fullscreen: F11</source>
+      <translation>Вимкнути повний екран: F11</translation>
+    </message>
+    <message>
+      <source>Toggle Pause: F9</source>
+      <translation>Вимкнути паузу: F9</translation>
+    </message>
+    <message>
+      <source>Tip: Up to three inputs can be assigned for each function</source>
+      <translation>Порада: До кожної функції можна призначити до трьох входів</translation>
+    </message>
+    <message>
+      <source>Save</source>
+      <translation>Зберегти</translation>
+    </message>
+    <message>
+      <source>Apply</source>
+      <translation>Застосувати</translation>
+    </message>
+    <message>
+      <source>Cancel</source>
+      <translation>Скасувати</translation>
+    </message>
+    <message>
+      <source>Press a button</source>
+      <translation>Натисніть кнопку</translation>
     </message>
   </context>
 </TS>

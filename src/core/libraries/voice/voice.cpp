@@ -52,7 +52,7 @@ s32 PS4_SYSV_ABI sceVoiceGetPortAttr() {
 s32 PS4_SYSV_ABI sceVoiceGetPortInfo(u32 port_id, OrbisVoicePortInfo* info) {
     LOG_ERROR(Lib_Voice, "(STUBBED) called");
     info->port_type = 0;
-    info->state = 3;
+    info->state = 0;
     info->byte_count = 0;
     info->frame_size = 1;
     info->edge_count = 0;
@@ -166,7 +166,7 @@ s32 PS4_SYSV_ABI sceVoiceWriteToIPort() {
     return ORBIS_OK;
 }
 
-void RegisterlibSceVoice(Core::Loader::SymbolsResolver* sym) {
+void RegisterLib(Core::Loader::SymbolsResolver* sym) {
     LIB_FUNCTION("oV9GAdJ23Gw", "libSceVoice", 1, "libSceVoice", 0, 0, sceVoiceConnectIPortToOPort);
     LIB_FUNCTION("nXpje5yNpaE", "libSceVoice", 1, "libSceVoice", 0, 0, sceVoiceCreatePort);
     LIB_FUNCTION("b7kJI+nx2hg", "libSceVoice", 1, "libSceVoice", 0, 0, sceVoiceDeletePort);

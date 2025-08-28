@@ -5,6 +5,7 @@
 
 #include <condition_variable>
 #include <boost/container/static_vector.hpp>
+
 #include "common/types.h"
 #include "common/unique_function.h"
 #include "video_core/amdgpu/liverpool.h"
@@ -20,14 +21,20 @@ namespace Vulkan {
 class Instance;
 
 struct RenderState {
-    std::array<vk::RenderingAttachmentInfo, 8> color_attachments{};
-    vk::RenderingAttachmentInfo depth_attachment{};
-    vk::RenderingAttachmentInfo stencil_attachment{};
-    u32 num_color_attachments{};
-    bool has_depth{};
-    bool has_stencil{};
-    u32 width = std::numeric_limits<u32>::max();
-    u32 height = std::numeric_limits<u32>::max();
+    std::array<vk::RenderingAttachmentInfo, 8> color_attachments;
+    vk::RenderingAttachmentInfo depth_attachment;
+    vk::RenderingAttachmentInfo stencil_attachment;
+    u32 num_color_attachments;
+    u32 num_layers;
+    bool has_depth;
+    bool has_stencil;
+    u32 width;
+    u32 height;
+
+    RenderState() {
+        std::memset(this, 0, sizeof(*this));
+        num_layers = 1;
+    }
 
     bool operator==(const RenderState& other) const noexcept {
         return std::memcmp(this, &other, sizeof(RenderState)) == 0;
@@ -96,11 +103,13 @@ struct DynamicState {
         bool stencil_back_compare_mask : 1;
 
         bool primitive_restart_enable : 1;
+        bool rasterizer_discard_enable : 1;
         bool cull_mode : 1;
         bool front_face : 1;
 
         bool blend_constants : 1;
         bool color_write_masks : 1;
+        bool line_width : 1;
     } dirty_state{};
 
     Viewports viewports{};
@@ -130,11 +139,13 @@ struct DynamicState {
     u32 stencil_back_compare_mask{};
 
     bool primitive_restart_enable{};
+    bool rasterizer_discard_enable{};
     vk::CullModeFlags cull_mode{};
     vk::FrontFace front_face{};
 
-    float blend_constants[4]{};
+    std::array<float, 4> blend_constants{};
     ColorWriteMasks color_write_masks{};
+    float line_width{};
 
     /// Commits the dynamic state to the provided command buffer.
     void Commit(const Instance& instance, const vk::CommandBuffer& cmdbuf);
@@ -283,10 +294,17 @@ struct DynamicState {
         }
     }
 
-    void SetBlendConstants(const float blend_constants_[4]) {
-        if (!std::equal(blend_constants, std::end(blend_constants), blend_constants_)) {
-            std::memcpy(blend_constants, blend_constants_, sizeof(blend_constants));
+    void SetBlendConstants(const std::array<float, 4> blend_constants_) {
+        if (blend_constants != blend_constants_) {
+            blend_constants = blend_constants_;
             dirty_state.blend_constants = true;
+        }
+    }
+
+    void SetRasterizerDiscardEnabled(const bool enabled) {
+        if (rasterizer_discard_enable != enabled) {
+            rasterizer_discard_enable = enabled;
+            dirty_state.rasterizer_discard_enable = true;
         }
     }
 
@@ -294,6 +312,13 @@ struct DynamicState {
         if (!std::ranges::equal(color_write_masks, color_write_masks_)) {
             color_write_masks = color_write_masks_;
             dirty_state.color_write_masks = true;
+        }
+    }
+
+    void SetLineWidth(const float width) {
+        if (line_width != width) {
+            line_width = width;
+            dirty_state.line_width = true;
         }
     }
 };
@@ -316,6 +341,9 @@ public:
 
     /// Waits for the given tick to trigger on the GPU.
     void Wait(u64 tick);
+
+    /// Attempts to execute operations whose tick the GPU has caught up with.
+    void PopPendingOperations();
 
     /// Starts a new rendering scope with provided state.
     void BeginRendering(const RenderState& new_state);
@@ -344,7 +372,11 @@ public:
     }
 
     /// Returns true when a tick has been triggered by the GPU.
-    [[nodiscard]] bool IsFree(u64 tick) const noexcept {
+    [[nodiscard]] bool IsFree(u64 tick) noexcept {
+        if (master_semaphore.IsFree(tick)) {
+            return true;
+        }
+        master_semaphore.Refresh();
         return master_semaphore.IsFree(tick);
     }
 

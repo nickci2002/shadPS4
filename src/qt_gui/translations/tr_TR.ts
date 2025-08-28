@@ -454,32 +454,8 @@
       <translation>Oyuna özel yapılandırma kullan</translation>
     </message>
     <message>
-      <source>L1 / LB</source>
-      <translation>L1 / LB</translation>
-    </message>
-    <message>
-      <source>L2 / LT</source>
-      <translation>L2 / LT</translation>
-    </message>
-    <message>
-      <source>Back</source>
-      <translation>Geri</translation>
-    </message>
-    <message>
-      <source>R1 / RB</source>
-      <translation>R1 / RB</translation>
-    </message>
-    <message>
-      <source>R2 / RT</source>
-      <translation>R2 / RT</translation>
-    </message>
-    <message>
       <source>L3</source>
       <translation>L3</translation>
-    </message>
-    <message>
-      <source>Options / Start</source>
-      <translation>Seçenekler / Başlat</translation>
     </message>
     <message>
       <source>R3</source>
@@ -488,22 +464,6 @@
     <message>
       <source>Face Buttons</source>
       <translation>Eylem Düğmeleri</translation>
-    </message>
-    <message>
-      <source>Triangle / Y</source>
-      <translation>Üçgen / Y</translation>
-    </message>
-    <message>
-      <source>Square / X</source>
-      <translation>Kare / X</translation>
-    </message>
-    <message>
-      <source>Circle / B</source>
-      <translation>Daire / B</translation>
-    </message>
-    <message>
-      <source>Cross / A</source>
-      <translation>Çarpı / A</translation>
     </message>
     <message>
       <source>Right Stick Deadzone (def:2, max:127)</source>
@@ -564,6 +524,130 @@
     <message>
       <source>Cancel</source>
       <translation>İptal</translation>
+    </message>
+    <message>
+      <source>unmapped</source>
+      <translation>atanmamış</translation>
+    </message>
+    <message>
+      <source>L1</source>
+      <translation>L1</translation>
+    </message>
+    <message>
+      <source>R1</source>
+      <translation>R1</translation>
+    </message>
+    <message>
+      <source>L2</source>
+      <translation>L2</translation>
+    </message>
+    <message>
+      <source>Options</source>
+      <translation>Seçenekler</translation>
+    </message>
+    <message>
+      <source>R2</source>
+      <translation>R2</translation>
+    </message>
+    <message>
+      <source>Touchpad Left</source>
+      <translation>Dokunmatik Yüzey Sol</translation>
+    </message>
+    <message>
+      <source>Touchpad Center</source>
+      <translation>Dokunmatik Yüzey Orta</translation>
+    </message>
+    <message>
+      <source>Touchpad Right</source>
+      <translation>Dokunmatik Yüzey Sağ</translation>
+    </message>
+    <message>
+      <source>Triangle</source>
+      <translation>Üçgen</translation>
+    </message>
+    <message>
+      <source>Square</source>
+      <translation>Kare</translation>
+    </message>
+    <message>
+      <source>Circle</source>
+      <translation>Yuvarlak</translation>
+    </message>
+    <message>
+      <source>Cross</source>
+      <translation>Çarpı</translation>
+    </message>
+    <message>
+      <source>Cannot bind any unique input more than once. Duplicate inputs mapped to the following buttons:
+
+%1</source>
+      <translation>Aynı tuş birden fazla kez atanamaz. Aşağıdaki tuşlara birden fazla giriş atanmış:
+
+%1</translation>
+    </message>
+    <message>
+      <source>Press a button</source>
+      <translation>Bir Düğmeye Bas</translation>
+    </message>
+    <message>
+      <source>Move analog stick</source>
+      <translation>Analog çubuğu taşı</translation>
+    </message>
+    <message>
+      <source>L1 and L2</source>
+      <translation>L1 ve L2</translation>
+    </message>
+    <message>
+      <source>Active Gamepad</source>
+      <translation>Aktif Kontrolcü</translation>
+    </message>
+    <message>
+      <source>Gamepad ID</source>
+      <translation>Kontrolcü ID</translation>
+    </message>
+    <message>
+      <source>Default Gamepad</source>
+      <translation>Varsayılan Kontrolcü</translation>
+    </message>
+    <message>
+      <source>No default selected</source>
+      <translation>Varsayılan seçilmedi</translation>
+    </message>
+    <message>
+      <source>n/a</source>
+      <translation>n/a</translation>
+    </message>
+    <message>
+      <source>Set Active Gamepad as Default</source>
+      <translation>Aktif Kontrolcüyü Varsayılan Olarak Ayarla</translation>
+    </message>
+    <message>
+      <source>Remove Default Gamepad</source>
+      <translation>Varsayılan Kontrolcüyü Kaldır</translation>
+    </message>
+    <message>
+      <source>R1 and R2</source>
+      <translation>R1 ve R2</translation>
+    </message>
+    <message>
+      <source>ID: </source>
+      <translation>ID: </translation>
+    </message>
+    <message>
+      <source>Default Controller Selected</source>
+      <translation>Varsayılan Kontrolcü Seçildi</translation>
+    </message>
+    <message>
+      <source>Active controller set as default</source>
+      <translation>Aktif kontrolcü varsayılan olarak ayarlandı</translation>
+    </message>
+    <message>
+      <source>Default Controller Removed</source>
+      <translation>Varsayılan Kontrolcü Kaldırıldı</translation>
+    </message>
+    <message>
+      <source>Default controller setting removed</source>
+      <translation>Varsayılan kontrolcü ayarı kaldırıldı</translation>
     </message>
   </context>
   <context>
@@ -747,6 +831,10 @@
     <message>
       <source>Last updated</source>
       <translation>Son güncelleme</translation>
+    </message>
+    <message>
+      <source>Favorite</source>
+      <translation>Sık Kullanılan</translation>
     </message>
   </context>
   <context>
@@ -950,6 +1038,14 @@
       <source>SFO Viewer for </source>
       <translation>SFO Görüntüleyici: </translation>
     </message>
+    <message>
+      <source>Remove from Favorites</source>
+      <translation>Favorilerden kaldır</translation>
+    </message>
+    <message>
+      <source>Add to Favorites</source>
+      <translation>Favorilere Ekle</translation>
+    </message>
   </context>
   <context>
     <name>HelpDialog</name>
@@ -1055,10 +1151,6 @@
     <message>
       <source>L3</source>
       <translation>L3</translation>
-    </message>
-    <message>
-      <source>Touchpad Click</source>
-      <translation>Dokunmatik Yüzey Tıklaması</translation>
     </message>
     <message>
       <source>Mouse to Joystick</source>
@@ -1184,9 +1276,21 @@
       <source>Cannot bind any unique input more than once. Duplicate inputs mapped to the following buttons:
 
 %1</source>
-      <translation type="unfinished">Cannot bind any unique input more than once. Duplicate inputs mapped to the following buttons:
+      <translation>Aynı tuş birden fazla kez atanamaz. Aşağıdaki tuşlara birden fazla giriş atanmış:
 
 %1</translation>
+    </message>
+    <message>
+      <source>Touchpad Left</source>
+      <translation>Dokunmatik Yüzey Sol</translation>
+    </message>
+    <message>
+      <source>Touchpad Center</source>
+      <translation>Dokunmatik Yüzey Orta</translation>
+    </message>
+    <message>
+      <source>Touchpad Right</source>
+      <translation>Dokunmatik Yüzey Sağ</translation>
     </message>
   </context>
   <context>
@@ -1447,6 +1551,10 @@
       <source>Show Labels Under Icons</source>
       <translation>Simgelerin Altında Etiketleri Göster</translation>
     </message>
+    <message>
+      <source>Customize Hotkeys</source>
+      <translation>Kısayol Tuşlarını Özelleştir</translation>
+    </message>
   </context>
   <context>
     <name>SettingsDialog</name>
@@ -1539,16 +1647,24 @@
       <translation>İmleç İçin Hareketsizlik Zaman Aşımı</translation>
     </message>
     <message>
+      <source>Microphone</source>
+      <translation>Mikrofon</translation>
+    </message>
+    <message>
+      <source>None</source>
+      <translation>Hiçbiri</translation>
+    </message>
+    <message>
+      <source>Default Device</source>
+      <translation>Varsayılan Cihaz</translation>
+    </message>
+    <message>
       <source>s</source>
       <translation>sn</translation>
     </message>
     <message>
       <source>Controller</source>
       <translation>Kontrolcü</translation>
-    </message>
-    <message>
-      <source>Back Button Behavior</source>
-      <translation>Geri Dönme Butonu Davranışı</translation>
     </message>
     <message>
       <source>Graphics</source>
@@ -1641,6 +1757,14 @@
     <message>
       <source>Guest Debug Markers</source>
       <translation>Konuk Hata Ayıklama İşaretleyicileri</translation>
+    </message>
+    <message>
+      <source>Enable Readbacks</source>
+      <translation>Geri okuma özelliğini etkinleştir</translation>
+    </message>
+    <message>
+      <source>Enable Readback Linear Images</source>
+      <translation>Lineer Görüntü Geri Okumayı Etkinleştir</translation>
     </message>
     <message>
       <source>Update</source>
@@ -1787,10 +1911,6 @@
       <translation>İmleç İçin Hareketsizlik Zaman Aşımı:\nBoşta kalan imlecin kendini kaç saniye sonra gizleyeceğidir.</translation>
     </message>
     <message>
-      <source>Back Button Behavior:\nSets the controller&apos;s back button to emulate tapping the specified position on the PS4 touchpad.</source>
-      <translation>Geri düğmesi davranışı:\nKontrol cihazındaki geri düğmesini, PS4&apos;ün dokunmatik panelindeki belirlenen noktaya dokunmak için ayarlar.</translation>
-    </message>
-    <message>
       <source>Display Compatibility Data:\nDisplays game compatibility information in table view. Enable &quot;Update Compatibility On Startup&quot; to get up-to-date information.</source>
       <translation>Uyumluluk Verilerini Göster:\nOyun uyumluluk bilgilerini tablo görünümünde görüntüler. Güncel bilgileri almak için &quot;Başlangıçta Uyumluluk Veritabanını Güncelle&quot;yi etkinleştirin.</translation>
     </message>
@@ -1813,22 +1933,6 @@
     <message>
       <source>Always</source>
       <translation>Her zaman</translation>
-    </message>
-    <message>
-      <source>Touchpad Left</source>
-      <translation>Dokunmatik Yüzey Sol</translation>
-    </message>
-    <message>
-      <source>Touchpad Right</source>
-      <translation>Dokunmatik Yüzey Sağ</translation>
-    </message>
-    <message>
-      <source>Touchpad Center</source>
-      <translation>Dokunmatik Yüzey Orta</translation>
-    </message>
-    <message>
-      <source>None</source>
-      <translation>Yok</translation>
     </message>
     <message>
       <source>Graphics Device:\nOn multiple GPU systems, select the GPU the emulator will use from the drop down list,\nor select &quot;Auto Select&quot; to automatically determine it.</source>
@@ -1887,8 +1991,12 @@
       <translation>Gölgelendiricileri Topla:\nHata ayıklama menüsüyle (Ctrl + F10) gölgelendiricileri düzenlemek için bunun etkinleştirilmesi gerekir.</translation>
     </message>
     <message>
-      <source>Crash Diagnostics:\nCreates a .yaml file with info about the Vulkan state at the time of crashing.\nUseful for debugging &apos;Device lost&apos; errors. If you have this enabled, you should enable Host AND Guest Debug Markers.\nDoes not work on Intel GPUs.\nYou need Vulkan Validation Layers enabled and the Vulkan SDK for this to work.</source>
-      <translation>Çökme Tanılamaları:\nÇökme anındaki Vulkan durumu hakkında bilgi içeren bir .yaml dosyası oluşturur.\n&apos;Cihaz kayıp&apos; hatalarını ayıklamak için kullanışlıdır. Bunu etkinleştirdiyseniz, Ana Bilgisayar ve Konuk Hata Ayıklama İşaretleyicileri'ni etkinleştirmelisiniz.\nIntel GPU'lar üzerinde çalışmaz.\nÇalışabilmesi için Vulkan Doğrulama Katmanları'nın etkinleştirilmesine ve Vulkan SDK'sine ihtiyacınız vardır.</translation>
+      <source>Enable Readbacks:\nEnable GPU memory readbacks and writebacks.\nThis is required for proper behavior in some games.\nMight cause stability and/or performance issues.</source>
+      <translation>Geri Okuma özelliğini etkinleştir:\nGPU belleğinden veri geri okuma ve yazmayı etkinleştirir.\nBazı oyunların doğru çalışması için gereklidir.\nKararlılık ve/veya performans sorunlarına neden olabilir.</translation>
+    </message>
+    <message>
+      <source>Enable Readback Linear Images:\nEnables async downloading of GPU modified linear images.\nMight fix issues in some games.</source>
+      <translation>Doğrusal görüntülerde geri okumayı etkinleştir:\nGPU tarafından değiştirilmiş doğrusal görüntülerin eşzamanlı olmayan indirilmesini etkinleştirir.\nBazı oyunlardaki sorunları düzeltebilir.</translation>
     </message>
     <message>
       <source>Copy GPU Buffers:\nGets around race conditions involving GPU submits.\nMay or may not help with PM4 type 0 crashes.</source>
@@ -2054,6 +2162,30 @@
       <source> * Unsupported Vulkan Version</source>
       <translation> * Desteklenmeyen Vulkan Sürümü</translation>
     </message>
+    <message>
+      <source>100%</source>
+      <translation>100%</translation>
+    </message>
+    <message>
+      <source>Experimental Features</source>
+      <translation>Deneysel Özellikler</translation>
+    </message>
+    <message>
+      <source>WARNING: These features are experimental and should not be enabled unless you were told to, or a game requires it. Please ask in the shadPS4 Discord server if you have any questions.</source>
+      <translation>UYARI: Bu özellikler deneyseldir ve size söylenmediği ya da bir oyun ihtiyaç duymadığı sürece açılmamalıdır. Lütfen sorularınız varsa shadPS4 Discord sunucusuna sorunuz.</translation>
+    </message>
+    <message>
+      <source>Enable Background Controller Input</source>
+      <translation>Arka Plan Kontrolcü Girişini Etkinleştir</translation>
+    </message>
+    <message>
+      <source>Enable Controller Background Input:\nAllow shadPS4 to detect controller inputs when the game window is not in focus.</source>
+      <translation>Enable Controller Background Input:\nOyun penceresi odaklanmadığında da shadPS4'ün kontrolcü girişlerini algılamasına izin ver.</translation>
+    </message>
+    <message>
+      <source>Crash Diagnostics:\nCreates a .yaml file with info about the Vulkan state at the time of crashing.\nUseful for debugging &apos;Device lost&apos; errors. If you have this enabled, you should enable Host AND Guest Debug Markers.\nYou need Vulkan Validation Layers enabled and the Vulkan SDK for this to work.</source>
+      <translation type="unfinished">Crash Diagnostics:\nCreates a .yaml file with info about the Vulkan state at the time of crashing.\nUseful for debugging &apos;Device lost&apos; errors. If you have this enabled, you should enable Host AND Guest Debug Markers.\nYou need Vulkan Validation Layers enabled and the Vulkan SDK for this to work.</translation>
+    </message>
   </context>
   <context>
     <name>TrophyViewer</name>
@@ -2080,6 +2212,77 @@
     <message>
       <source>Show Hidden Trophies</source>
       <translation>Gizli Kupaları Göster</translation>
+    </message>
+  </context>
+  <context>
+    <name>hotkeys</name>
+    <message>
+      <source>Customize Hotkeys</source>
+      <translation>Kısayol Tuşlarını Özelleştir</translation>
+    </message>
+    <message>
+      <source>Controller Hotkeys</source>
+      <translation>Kontrolcü Kısayolları</translation>
+    </message>
+    <message>
+      <source>Show FPS Counter</source>
+      <translation>FPS Sayacını Göster</translation>
+    </message>
+    <message>
+      <source>unmapped</source>
+      <translation>atanmamış</translation>
+    </message>
+    <message>
+      <source>Stop Emulator</source>
+      <translation>Emülatörü Durdur</translation>
+    </message>
+    <message>
+      <source>Toggle Fullscreen</source>
+      <translation>Tam Ekrana Geç</translation>
+    </message>
+    <message>
+      <source>Toggle Pause</source>
+      <translation>Duraklat</translation>
+    </message>
+    <message>
+      <source>Keyboard Hotkeys</source>
+      <translation>Klavye Kısayolları</translation>
+    </message>
+    <message>
+      <source>Show Fps Counter: F10</source>
+      <translation>FPS Sayacını Göster: F10</translation>
+    </message>
+    <message>
+      <source>Stop Emulator: n/a</source>
+      <translation>Emülatörü Durdur: n/a</translation>
+    </message>
+    <message>
+      <source>Toggle Fullscreen: F11</source>
+      <translation>Tam Ekrana Geç: F11</translation>
+    </message>
+    <message>
+      <source>Toggle Pause: F9</source>
+      <translation>Duraklat: F9</translation>
+    </message>
+    <message>
+      <source>Tip: Up to three inputs can be assigned for each function</source>
+      <translation>İpucu: Her bir işlev için en fazla üç giriş atanabilir</translation>
+    </message>
+    <message>
+      <source>Save</source>
+      <translation>Kaydet</translation>
+    </message>
+    <message>
+      <source>Apply</source>
+      <translation>Uygula</translation>
+    </message>
+    <message>
+      <source>Cancel</source>
+      <translation>İptal</translation>
+    </message>
+    <message>
+      <source>Press a button</source>
+      <translation>Bir düğmeye bas</translation>
     </message>
   </context>
 </TS>

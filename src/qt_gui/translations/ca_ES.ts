@@ -454,32 +454,8 @@
       <translation>Fes servir configuracions per cada joc</translation>
     </message>
     <message>
-      <source>L1 / LB</source>
-      <translation>L1 / LB</translation>
-    </message>
-    <message>
-      <source>L2 / LT</source>
-      <translation>L2 / LT</translation>
-    </message>
-    <message>
-      <source>Back</source>
-      <translation>Torna</translation>
-    </message>
-    <message>
-      <source>R1 / RB</source>
-      <translation>R1 / RB</translation>
-    </message>
-    <message>
-      <source>R2 / RT</source>
-      <translation>R2 / RT</translation>
-    </message>
-    <message>
       <source>L3</source>
       <translation>L3</translation>
-    </message>
-    <message>
-      <source>Options / Start</source>
-      <translation>Opcions / Executa</translation>
     </message>
     <message>
       <source>R3</source>
@@ -488,22 +464,6 @@
     <message>
       <source>Face Buttons</source>
       <translation>Botons d'acció</translation>
-    </message>
-    <message>
-      <source>Triangle / Y</source>
-      <translation>Triangle / Y</translation>
-    </message>
-    <message>
-      <source>Square / X</source>
-      <translation>Quadrat / X</translation>
-    </message>
-    <message>
-      <source>Circle / B</source>
-      <translation>Cercle / B</translation>
-    </message>
-    <message>
-      <source>Cross / A</source>
-      <translation>Creu / A</translation>
     </message>
     <message>
       <source>Right Stick Deadzone (def:2, max:127)</source>
@@ -564,6 +524,130 @@
     <message>
       <source>Cancel</source>
       <translation>Cancel·la</translation>
+    </message>
+    <message>
+      <source>unmapped</source>
+      <translation>sense assignar</translation>
+    </message>
+    <message>
+      <source>L1</source>
+      <translation>L1</translation>
+    </message>
+    <message>
+      <source>R1</source>
+      <translation>R1</translation>
+    </message>
+    <message>
+      <source>L2</source>
+      <translation>L2</translation>
+    </message>
+    <message>
+      <source>Options</source>
+      <translation>Opcions</translation>
+    </message>
+    <message>
+      <source>R2</source>
+      <translation>R2</translation>
+    </message>
+    <message>
+      <source>Touchpad Left</source>
+      <translation>Touchpad esquerra</translation>
+    </message>
+    <message>
+      <source>Touchpad Center</source>
+      <translation>Touchpad centre</translation>
+    </message>
+    <message>
+      <source>Touchpad Right</source>
+      <translation>Touchpad dreta</translation>
+    </message>
+    <message>
+      <source>Triangle</source>
+      <translation>Triangle</translation>
+    </message>
+    <message>
+      <source>Square</source>
+      <translation>Quadrat</translation>
+    </message>
+    <message>
+      <source>Circle</source>
+      <translation>Cercle</translation>
+    </message>
+    <message>
+      <source>Cross</source>
+      <translation>Creu</translation>
+    </message>
+    <message>
+      <source>Cannot bind any unique input more than once. Duplicate inputs mapped to the following buttons:
+
+%1</source>
+      <translation>No es pot assignar una entrada més d'una vegada. S'han assignat de manera duplicada pels següents botons:
+
+%1</translation>
+    </message>
+    <message>
+      <source>Press a button</source>
+      <translation>Clica un botó</translation>
+    </message>
+    <message>
+      <source>Move analog stick</source>
+      <translation>Mou la palanca</translation>
+    </message>
+    <message>
+      <source>L1 and L2</source>
+      <translation>L1 i L2</translation>
+    </message>
+    <message>
+      <source>Active Gamepad</source>
+      <translation>Controlador actiu</translation>
+    </message>
+    <message>
+      <source>Gamepad ID</source>
+      <translation>ID del controlador</translation>
+    </message>
+    <message>
+      <source>Default Gamepad</source>
+      <translation>Controlador per defecte</translation>
+    </message>
+    <message>
+      <source>No default selected</source>
+      <translation>No hi ha cap seleccionat per defecte</translation>
+    </message>
+    <message>
+      <source>n/a</source>
+      <translation>n/a</translation>
+    </message>
+    <message>
+      <source>Set Active Gamepad as Default</source>
+      <translation>Estableix el controlador actual per defecte</translation>
+    </message>
+    <message>
+      <source>Remove Default Gamepad</source>
+      <translation>Elimina el controlador per defecte</translation>
+    </message>
+    <message>
+      <source>R1 and R2</source>
+      <translation>R1 i R2</translation>
+    </message>
+    <message>
+      <source>ID: </source>
+      <translation>ID: </translation>
+    </message>
+    <message>
+      <source>Default Controller Selected</source>
+      <translation>Seleccionat el controlador per defecte</translation>
+    </message>
+    <message>
+      <source>Active controller set as default</source>
+      <translation>El controlador actiu per defecte</translation>
+    </message>
+    <message>
+      <source>Default Controller Removed</source>
+      <translation>Eliminat el controlador per defecte</translation>
+    </message>
+    <message>
+      <source>Default controller setting removed</source>
+      <translation>S'ha eliminat el controlador per defecte</translation>
     </message>
   </context>
   <context>
@@ -747,6 +831,10 @@
     <message>
       <source>Last updated</source>
       <translation>Darrera actualització</translation>
+    </message>
+    <message>
+      <source>Favorite</source>
+      <translation>Preferit</translation>
     </message>
   </context>
   <context>
@@ -950,6 +1038,14 @@
       <source>SFO Viewer for </source>
       <translation>Visualitzador SFO per </translation>
     </message>
+    <message>
+      <source>Remove from Favorites</source>
+      <translation>Esborra dels preferits</translation>
+    </message>
+    <message>
+      <source>Add to Favorites</source>
+      <translation>Afegeix a preferits</translation>
+    </message>
   </context>
   <context>
     <name>HelpDialog</name>
@@ -1055,10 +1151,6 @@
     <message>
       <source>L3</source>
       <translation>L3</translation>
-    </message>
-    <message>
-      <source>Touchpad Click</source>
-      <translation>Click al touchpad</translation>
     </message>
     <message>
       <source>Mouse to Joystick</source>
@@ -1184,9 +1276,21 @@
       <source>Cannot bind any unique input more than once. Duplicate inputs mapped to the following buttons:
 
 %1</source>
-      <translation type="unfinished">Cannot bind any unique input more than once. Duplicate inputs mapped to the following buttons:
+      <translation>No es pot assignar una entrada més d'una vegada. S'han assignat de manera duplicada pels següents botons:
 
 %1</translation>
+    </message>
+    <message>
+      <source>Touchpad Left</source>
+      <translation>Touchpad esquerra</translation>
+    </message>
+    <message>
+      <source>Touchpad Center</source>
+      <translation>Touchpad centre</translation>
+    </message>
+    <message>
+      <source>Touchpad Right</source>
+      <translation>Touchpad dreta</translation>
     </message>
   </context>
   <context>
@@ -1447,6 +1551,10 @@
       <source>Show Labels Under Icons</source>
       <translation>Mostra les etiquetes sota les icones</translation>
     </message>
+    <message>
+      <source>Customize Hotkeys</source>
+      <translation>Personalitza les dreceres de teclat</translation>
+    </message>
   </context>
   <context>
     <name>SettingsDialog</name>
@@ -1539,16 +1647,24 @@
       <translation>Temps d'espera per ocultar el ratolí</translation>
     </message>
     <message>
+      <source>Microphone</source>
+      <translation>Micròfon</translation>
+    </message>
+    <message>
+      <source>None</source>
+      <translation>Cap</translation>
+    </message>
+    <message>
+      <source>Default Device</source>
+      <translation>Dispositiu per defecte</translation>
+    </message>
+    <message>
       <source>s</source>
       <translation>s</translation>
     </message>
     <message>
       <source>Controller</source>
       <translation>Controlador</translation>
-    </message>
-    <message>
-      <source>Back Button Behavior</source>
-      <translation>Comportament del botó de retrocés</translation>
     </message>
     <message>
       <source>Graphics</source>
@@ -1641,6 +1757,14 @@
     <message>
       <source>Guest Debug Markers</source>
       <translation>Marcadors de depuració</translation>
+    </message>
+    <message>
+      <source>Enable Readbacks</source>
+      <translation>Activar Readbacks</translation>
+    </message>
+    <message>
+      <source>Enable Readback Linear Images</source>
+      <translation>Activa imatges lineals de Readback</translation>
     </message>
     <message>
       <source>Update</source>
@@ -1787,10 +1911,6 @@
       <translation>Temps d'espera per ocultar el ratolí:\nLa duració (en segons) després de la qual el ratolí s'amaga si es troba inactiu.</translation>
     </message>
     <message>
-      <source>Back Button Behavior:\nSets the controller&apos;s back button to emulate tapping the specified position on the PS4 touchpad.</source>
-      <translation>Comportament del botó posterior:\nEstableix el botó posterior del controlador per simular el toc en una posició especificada del touchpad de PS4.</translation>
-    </message>
-    <message>
       <source>Display Compatibility Data:\nDisplays game compatibility information in table view. Enable &quot;Update Compatibility On Startup&quot; to get up-to-date information.</source>
       <translation>Mostra les dades de compatibilitat:\nMostra informació sobre la compatibilitat a la vista de graella. Pots activar l'actualització de compatibilitat a l'inici per obtenir més informació actualitzada.</translation>
     </message>
@@ -1813,22 +1933,6 @@
     <message>
       <source>Always</source>
       <translation>Sempre</translation>
-    </message>
-    <message>
-      <source>Touchpad Left</source>
-      <translation>Touchpad esquerra</translation>
-    </message>
-    <message>
-      <source>Touchpad Right</source>
-      <translation>Touchpad dret</translation>
-    </message>
-    <message>
-      <source>Touchpad Center</source>
-      <translation>Centre del Touchpad</translation>
-    </message>
-    <message>
-      <source>None</source>
-      <translation>Cap</translation>
     </message>
     <message>
       <source>Graphics Device:\nOn multiple GPU systems, select the GPU the emulator will use from the drop down list,\nor select &quot;Auto Select&quot; to automatically determine it.</source>
@@ -1887,8 +1991,12 @@
       <translation>Recopilar shaders:\nHas de tenir activada aquesta opció per editar els shaders amb el menú de depurador (Ctrl + F10).</translation>
     </message>
     <message>
-      <source>Crash Diagnostics:\nCreates a .yaml file with info about the Vulkan state at the time of crashing.\nUseful for debugging &apos;Device lost&apos; errors. If you have this enabled, you should enable Host AND Guest Debug Markers.\nDoes not work on Intel GPUs.\nYou need Vulkan Validation Layers enabled and the Vulkan SDK for this to work.</source>
-      <translation>Diagnòstiques de fallides:\nCrea un fitxer .yaml amb informació sobre l'estat de Vulkan en el moment de fer fallida.\nÉs útil per depurar errors del tipus 'Dispositiu perdut'. Si aquesta opció està activada, caldria activar els marcadors de depuració de convidat.\nNo funciona en les targetes gràfiques de Intel.\nCal activar la validació de capes de Vulkan i el SDK de Vulkan perquè funcioni.</translation>
+      <source>Enable Readbacks:\nEnable GPU memory readbacks and writebacks.\nThis is required for proper behavior in some games.\nMight cause stability and/or performance issues.</source>
+      <translation>Actica Readbacks:\nActiva readbacks i writebacks a la memòria de la targeta gràfica.\nAixò és necessari pel funcionament correcte en alguns jocs.\nPot causar inestabilitat i/o errors de rendiment.</translation>
+    </message>
+    <message>
+      <source>Enable Readback Linear Images:\nEnables async downloading of GPU modified linear images.\nMight fix issues in some games.</source>
+      <translation>Activa imatges lineals de Readback:\nActiva la descàrrega asíncrona d'imatges lineals modificades de la targeta gràfica:\nPot corregir errors en alguns jocs.</translation>
     </message>
     <message>
       <source>Copy GPU Buffers:\nGets around race conditions involving GPU submits.\nMay or may not help with PM4 type 0 crashes.</source>
@@ -2054,6 +2162,30 @@
       <source> * Unsupported Vulkan Version</source>
       <translation> Versió de Vulkan no suportada</translation>
     </message>
+    <message>
+      <source>100%</source>
+      <translation>100%</translation>
+    </message>
+    <message>
+      <source>Experimental Features</source>
+      <translation>Funcions experimentals</translation>
+    </message>
+    <message>
+      <source>WARNING: These features are experimental and should not be enabled unless you were told to, or a game requires it. Please ask in the shadPS4 Discord server if you have any questions.</source>
+      <translation>AVÍS: Aquestes funcions son experimentals i no haurien de ser activades a no ser que t'ho demanin, o que el joc ho necessiti. Pregunta en el Discord de shadPS4 si tens dubtes.</translation>
+    </message>
+    <message>
+      <source>Enable Background Controller Input</source>
+      <translation>Activa l'entrada del controlador en segon pla</translation>
+    </message>
+    <message>
+      <source>Enable Controller Background Input:\nAllow shadPS4 to detect controller inputs when the game window is not in focus.</source>
+      <translation>Activa l'entrada del controlador en segon pla:\nPermet a shadPS4 per detectar l'entrada del controlador quan la finestra del joc ja no té el focus.</translation>
+    </message>
+    <message>
+      <source>Crash Diagnostics:\nCreates a .yaml file with info about the Vulkan state at the time of crashing.\nUseful for debugging &apos;Device lost&apos; errors. If you have this enabled, you should enable Host AND Guest Debug Markers.\nYou need Vulkan Validation Layers enabled and the Vulkan SDK for this to work.</source>
+      <translation>Diagnòstiques de fallides:\nCrea un fitxer .yaml amb informació sobre l'estat de Vulkan en el moment de fer fallida.\nÉs útil per depurar errors del tipus 'Dispositiu perdut'. Si aquesta opció està activada, caldria activar els marcadors de depuració de convidat.\nCal activar la validació de capes de Vulkan i el SDK de Vulkan perquè funcioni.</translation>
+    </message>
   </context>
   <context>
     <name>TrophyViewer</name>
@@ -2080,6 +2212,77 @@
     <message>
       <source>Show Hidden Trophies</source>
       <translation>Mostra els trofeus ocults</translation>
+    </message>
+  </context>
+  <context>
+    <name>hotkeys</name>
+    <message>
+      <source>Customize Hotkeys</source>
+      <translation>Personalitza les dreceres de teclat</translation>
+    </message>
+    <message>
+      <source>Controller Hotkeys</source>
+      <translation>Dreceres del controlador</translation>
+    </message>
+    <message>
+      <source>Show FPS Counter</source>
+      <translation>Mostra el comptador de fps</translation>
+    </message>
+    <message>
+      <source>unmapped</source>
+      <translation>sense assignar</translation>
+    </message>
+    <message>
+      <source>Stop Emulator</source>
+      <translation>Atura l'emulador</translation>
+    </message>
+    <message>
+      <source>Toggle Fullscreen</source>
+      <translation>Commuta pantalla completa</translation>
+    </message>
+    <message>
+      <source>Toggle Pause</source>
+      <translation>Commuta la pausa</translation>
+    </message>
+    <message>
+      <source>Keyboard Hotkeys</source>
+      <translation>Dreceres de teclat</translation>
+    </message>
+    <message>
+      <source>Show Fps Counter: F10</source>
+      <translation>Mostra el comptador de fps: F10</translation>
+    </message>
+    <message>
+      <source>Stop Emulator: n/a</source>
+      <translation>Atura l'emulador: n/a</translation>
+    </message>
+    <message>
+      <source>Toggle Fullscreen: F11</source>
+      <translation>Commuta pantalla completa: F11</translation>
+    </message>
+    <message>
+      <source>Toggle Pause: F9</source>
+      <translation>Commuta la pausa: F9</translation>
+    </message>
+    <message>
+      <source>Tip: Up to three inputs can be assigned for each function</source>
+      <translation>Truc: Fins a tres botons poden ser assignats a cada funció</translation>
+    </message>
+    <message>
+      <source>Save</source>
+      <translation>Desa</translation>
+    </message>
+    <message>
+      <source>Apply</source>
+      <translation>Aplica</translation>
+    </message>
+    <message>
+      <source>Cancel</source>
+      <translation>Cancel·la</translation>
+    </message>
+    <message>
+      <source>Press a button</source>
+      <translation>Clica un botó</translation>
     </message>
   </context>
 </TS>

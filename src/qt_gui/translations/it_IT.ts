@@ -454,32 +454,8 @@
       <translation>Usa configurazioni per gioco</translation>
     </message>
     <message>
-      <source>L1 / LB</source>
-      <translation>L1 / LB</translation>
-    </message>
-    <message>
-      <source>L2 / LT</source>
-      <translation>L2 / LT</translation>
-    </message>
-    <message>
-      <source>Back</source>
-      <translation>Indietro</translation>
-    </message>
-    <message>
-      <source>R1 / RB</source>
-      <translation>R1 / RB</translation>
-    </message>
-    <message>
-      <source>R2 / RT</source>
-      <translation>R2 / RT</translation>
-    </message>
-    <message>
       <source>L3</source>
       <translation>L3</translation>
-    </message>
-    <message>
-      <source>Options / Start</source>
-      <translation>Opzioni / Avvio</translation>
     </message>
     <message>
       <source>R3</source>
@@ -488,22 +464,6 @@
     <message>
       <source>Face Buttons</source>
       <translation>Pulsanti Frontali</translation>
-    </message>
-    <message>
-      <source>Triangle / Y</source>
-      <translation>Triangolo / Y</translation>
-    </message>
-    <message>
-      <source>Square / X</source>
-      <translation>Quadrato / X</translation>
-    </message>
-    <message>
-      <source>Circle / B</source>
-      <translation>Cerchio / B</translation>
-    </message>
-    <message>
-      <source>Cross / A</source>
-      <translation>Croce / A</translation>
     </message>
     <message>
       <source>Right Stick Deadzone (def:2, max:127)</source>
@@ -564,6 +524,130 @@
     <message>
       <source>Cancel</source>
       <translation>Annulla</translation>
+    </message>
+    <message>
+      <source>unmapped</source>
+      <translation>non mappato</translation>
+    </message>
+    <message>
+      <source>L1</source>
+      <translation>L1</translation>
+    </message>
+    <message>
+      <source>R1</source>
+      <translation>R1</translation>
+    </message>
+    <message>
+      <source>L2</source>
+      <translation>L2</translation>
+    </message>
+    <message>
+      <source>Options</source>
+      <translation>Opzioni</translation>
+    </message>
+    <message>
+      <source>R2</source>
+      <translation>R2</translation>
+    </message>
+    <message>
+      <source>Touchpad Left</source>
+      <translation>Touchpad Sinistra</translation>
+    </message>
+    <message>
+      <source>Touchpad Center</source>
+      <translation>Touchpad Centrale</translation>
+    </message>
+    <message>
+      <source>Touchpad Right</source>
+      <translation>Touchpad Destra</translation>
+    </message>
+    <message>
+      <source>Triangle</source>
+      <translation>Triangolo</translation>
+    </message>
+    <message>
+      <source>Square</source>
+      <translation>Quadrato</translation>
+    </message>
+    <message>
+      <source>Circle</source>
+      <translation>Cerchio</translation>
+    </message>
+    <message>
+      <source>Cross</source>
+      <translation>Croce</translation>
+    </message>
+    <message>
+      <source>Cannot bind any unique input more than once. Duplicate inputs mapped to the following buttons:
+
+%1</source>
+      <translation>Non è possibile associare più di una volta qualsiasi input univoco. Sono presenti input duplicati mappati ai seguenti pulsanti:
+
+%1</translation>
+    </message>
+    <message>
+      <source>Press a button</source>
+      <translation>Premi un pulsante</translation>
+    </message>
+    <message>
+      <source>Move analog stick</source>
+      <translation>Muovi levetta analogica</translation>
+    </message>
+    <message>
+      <source>L1 and L2</source>
+      <translation>L1 e L2</translation>
+    </message>
+    <message>
+      <source>Active Gamepad</source>
+      <translation>Gamepad Attivo</translation>
+    </message>
+    <message>
+      <source>Gamepad ID</source>
+      <translation>ID Gamepad</translation>
+    </message>
+    <message>
+      <source>Default Gamepad</source>
+      <translation>Gamepad Predefinito</translation>
+    </message>
+    <message>
+      <source>No default selected</source>
+      <translation>Nessun predefinito selezionato</translation>
+    </message>
+    <message>
+      <source>n/a</source>
+      <translation>n/a</translation>
+    </message>
+    <message>
+      <source>Set Active Gamepad as Default</source>
+      <translation>Imposta Gamepad Attivo come Predefinito</translation>
+    </message>
+    <message>
+      <source>Remove Default Gamepad</source>
+      <translation>Rimuovi Gamepad Predefinito</translation>
+    </message>
+    <message>
+      <source>R1 and R2</source>
+      <translation>R1 e R2</translation>
+    </message>
+    <message>
+      <source>ID: </source>
+      <translation>ID: </translation>
+    </message>
+    <message>
+      <source>Default Controller Selected</source>
+      <translation>Controller Predefinito Selezionato</translation>
+    </message>
+    <message>
+      <source>Active controller set as default</source>
+      <translation>Controller attivo impostato come predefinito</translation>
+    </message>
+    <message>
+      <source>Default Controller Removed</source>
+      <translation>Controller Predefinito Rimosso</translation>
+    </message>
+    <message>
+      <source>Default controller setting removed</source>
+      <translation>Impostazione predefinita del controller rimossa</translation>
     </message>
   </context>
   <context>
@@ -747,6 +831,10 @@
     <message>
       <source>Last updated</source>
       <translation>Ultimo aggiornamento</translation>
+    </message>
+    <message>
+      <source>Favorite</source>
+      <translation>Preferiti</translation>
     </message>
   </context>
   <context>
@@ -950,6 +1038,14 @@
       <source>SFO Viewer for </source>
       <translation>Visualizzatore SFO per </translation>
     </message>
+    <message>
+      <source>Remove from Favorites</source>
+      <translation>Rimuovi dai Preferiti</translation>
+    </message>
+    <message>
+      <source>Add to Favorites</source>
+      <translation>Aggiungi ai preferiti</translation>
+    </message>
   </context>
   <context>
     <name>HelpDialog</name>
@@ -1055,10 +1151,6 @@
     <message>
       <source>L3</source>
       <translation>L3</translation>
-    </message>
-    <message>
-      <source>Touchpad Click</source>
-      <translation>Click Touchpad</translation>
     </message>
     <message>
       <source>Mouse to Joystick</source>
@@ -1184,9 +1276,21 @@
       <source>Cannot bind any unique input more than once. Duplicate inputs mapped to the following buttons:
 
 %1</source>
-      <translation type="unfinished">Cannot bind any unique input more than once. Duplicate inputs mapped to the following buttons:
+      <translation>Non è possibile associare più di una volta qualsiasi input univoco. Sono presenti input duplicati mappati ai seguenti pulsanti:
 
 %1</translation>
+    </message>
+    <message>
+      <source>Touchpad Left</source>
+      <translation>Touchpad Sinistra</translation>
+    </message>
+    <message>
+      <source>Touchpad Center</source>
+      <translation>Touchpad Centrale</translation>
+    </message>
+    <message>
+      <source>Touchpad Right</source>
+      <translation>Touchpad Destra</translation>
     </message>
   </context>
   <context>
@@ -1447,6 +1551,10 @@
       <source>Show Labels Under Icons</source>
       <translation>Mostra Etichette Sotto Icone</translation>
     </message>
+    <message>
+      <source>Customize Hotkeys</source>
+      <translation>Personalizza Scorciatoie</translation>
+    </message>
   </context>
   <context>
     <name>SettingsDialog</name>
@@ -1539,16 +1647,24 @@
       <translation>Timeout inattività per nascondere il cursore</translation>
     </message>
     <message>
+      <source>Microphone</source>
+      <translation>Microfono</translation>
+    </message>
+    <message>
+      <source>None</source>
+      <translation>Nessuno</translation>
+    </message>
+    <message>
+      <source>Default Device</source>
+      <translation>Periferica Predefinita</translation>
+    </message>
+    <message>
       <source>s</source>
       <translation>s</translation>
     </message>
     <message>
       <source>Controller</source>
       <translation>Controller</translation>
-    </message>
-    <message>
-      <source>Back Button Behavior</source>
-      <translation>Comportamento del pulsante Indietro</translation>
     </message>
     <message>
       <source>Graphics</source>
@@ -1641,6 +1757,14 @@
     <message>
       <source>Guest Debug Markers</source>
       <translation>Marcatori di Debug del Guest </translation>
+    </message>
+    <message>
+      <source>Enable Readbacks</source>
+      <translation>Abilita Readback</translation>
+    </message>
+    <message>
+      <source>Enable Readback Linear Images</source>
+      <translation>Abilita Immagini Lineari Di Readback</translation>
     </message>
     <message>
       <source>Update</source>
@@ -1787,10 +1911,6 @@
       <translation>Imposta un tempo affinché il mouse scompaia dopo essere stato inattivo.</translation>
     </message>
     <message>
-      <source>Back Button Behavior:\nSets the controller&apos;s back button to emulate tapping the specified position on the PS4 touchpad.</source>
-      <translation>Comportamento del pulsante Indietro:\nImposta il pulsante Indietro del controller per emulare il tocco sulla posizione specificata sul touchpad PS4.</translation>
-    </message>
-    <message>
       <source>Display Compatibility Data:\nDisplays game compatibility information in table view. Enable &quot;Update Compatibility On Startup&quot; to get up-to-date information.</source>
       <translation>Mostra Dati Compatibilità:\nMostra informazioni sulla compatibilità del gioco nella visualizzazione lista. Abilita &quot;Aggiorna Compatiblità all&apos;Avvio&quot; per ottenere informazioni aggiornate.</translation>
     </message>
@@ -1813,22 +1933,6 @@
     <message>
       <source>Always</source>
       <translation>Sempre</translation>
-    </message>
-    <message>
-      <source>Touchpad Left</source>
-      <translation>Touchpad Sinistra</translation>
-    </message>
-    <message>
-      <source>Touchpad Right</source>
-      <translation>Touchpad Destra</translation>
-    </message>
-    <message>
-      <source>Touchpad Center</source>
-      <translation>Centro del Touchpad</translation>
-    </message>
-    <message>
-      <source>None</source>
-      <translation>Nessuno</translation>
     </message>
     <message>
       <source>Graphics Device:\nOn multiple GPU systems, select the GPU the emulator will use from the drop down list,\nor select &quot;Auto Select&quot; to automatically determine it.</source>
@@ -1887,8 +1991,12 @@
       <translation>Raccogli Shader:\nBisogna attivare questa opzione per poter modificare gli shader nel menu di debug (Ctrl + F10).</translation>
     </message>
     <message>
-      <source>Crash Diagnostics:\nCreates a .yaml file with info about the Vulkan state at the time of crashing.\nUseful for debugging &apos;Device lost&apos; errors. If you have this enabled, you should enable Host AND Guest Debug Markers.\nDoes not work on Intel GPUs.\nYou need Vulkan Validation Layers enabled and the Vulkan SDK for this to work.</source>
-      <translation>Diagnostica Crash:\nCrea un file .yaml che contiene informazioni riguardo lo stato del renderer Vulkan nel momento in cui si verifica un crash.\nUtile per poter effettuare il debug degli errori di tipo &quot;Device Lost&quot;. Se hai questa opzione attiva dovresti abilitare anche Marcatori di Debug Host e Guest.\nNon è funzionante su GPU Intel.\nVulkan Validation Layers deve essere abilitato e bisogna aver installato l&apos;SDK Vulkan per poter utilizzare questa funzione.</translation>
+      <source>Enable Readbacks:\nEnable GPU memory readbacks and writebacks.\nThis is required for proper behavior in some games.\nMight cause stability and/or performance issues.</source>
+      <translation>Abilita Readbacks:\nAbilita letture di memoria GPU e writebacks.\nQuesto è necessario per un comportamento corretto in alcuni giochi.\nPotrebbe causare problemi di stabilità e/o prestazioni.</translation>
+    </message>
+    <message>
+      <source>Enable Readback Linear Images:\nEnables async downloading of GPU modified linear images.\nMight fix issues in some games.</source>
+      <translation>Abilita le immagini lineari di Readback:\nConsente il download asincronico delle immagini lineari modificate dalla GPU.\nPotrebbe risolvere problemi grafici in alcuni giochi.</translation>
     </message>
     <message>
       <source>Copy GPU Buffers:\nGets around race conditions involving GPU submits.\nMay or may not help with PM4 type 0 crashes.</source>
@@ -2054,6 +2162,30 @@
       <source> * Unsupported Vulkan Version</source>
       <translation> * Versione Vulkan non supportata</translation>
     </message>
+    <message>
+      <source>100%</source>
+      <translation>100%</translation>
+    </message>
+    <message>
+      <source>Experimental Features</source>
+      <translation>Funzionalità Sperimentali</translation>
+    </message>
+    <message>
+      <source>WARNING: These features are experimental and should not be enabled unless you were told to, or a game requires it. Please ask in the shadPS4 Discord server if you have any questions.</source>
+      <translation>ATTENZIONE: Queste funzionalità sono sperimentali e non dovrebbero essere abilitate a meno che non sia stato indicato o che un gioco lo richieda. Si prega di chiedere informazioni nel server Discord shadPS4 se si è in dubbio.</translation>
+    </message>
+    <message>
+      <source>Enable Background Controller Input</source>
+      <translation>Abilita Input del Controller in Secondo Piano</translation>
+    </message>
+    <message>
+      <source>Enable Controller Background Input:\nAllow shadPS4 to detect controller inputs when the game window is not in focus.</source>
+      <translation>Abilita Input del Controller in Secondo Piano:\nPermette a shadPS4 di ricevere comandi dal controller quando la finestra di gioco non è in primo piano.</translation>
+    </message>
+    <message>
+      <source>Crash Diagnostics:\nCreates a .yaml file with info about the Vulkan state at the time of crashing.\nUseful for debugging &apos;Device lost&apos; errors. If you have this enabled, you should enable Host AND Guest Debug Markers.\nYou need Vulkan Validation Layers enabled and the Vulkan SDK for this to work.</source>
+      <translation>Diagnostica Crash:\nCrea un file .yaml che contiene informazioni riguardo lo stato del renderer Vulkan nel momento in cui si verifica un crash.\nUtile per poter effettuare il debug degli errori di tipo &apos;Device Lost&apos;. Se hai questa opzione attiva dovresti abilitare anche Marcatori di Debug Host e Guest. \nVulkan Validation Layers deve essere abilitato e bisogna aver installato l&apos;SDK Vulkan per poter utilizzare questa funzione.</translation>
+    </message>
   </context>
   <context>
     <name>TrophyViewer</name>
@@ -2080,6 +2212,77 @@
     <message>
       <source>Show Hidden Trophies</source>
       <translation>Mostra Trofei Nascosti</translation>
+    </message>
+  </context>
+  <context>
+    <name>hotkeys</name>
+    <message>
+      <source>Customize Hotkeys</source>
+      <translation>Personalizza Scorciatoie</translation>
+    </message>
+    <message>
+      <source>Controller Hotkeys</source>
+      <translation>Scorciatoie Controller</translation>
+    </message>
+    <message>
+      <source>Show FPS Counter</source>
+      <translation>Mostra Contatore FPS</translation>
+    </message>
+    <message>
+      <source>unmapped</source>
+      <translation>non mappato</translation>
+    </message>
+    <message>
+      <source>Stop Emulator</source>
+      <translation>Ferma Emulatore</translation>
+    </message>
+    <message>
+      <source>Toggle Fullscreen</source>
+      <translation>Attiva/Disattiva Schermo Intero</translation>
+    </message>
+    <message>
+      <source>Toggle Pause</source>
+      <translation>Attiva/Disattiva Pausa</translation>
+    </message>
+    <message>
+      <source>Keyboard Hotkeys</source>
+      <translation>Scorciatoie Da Tastiera</translation>
+    </message>
+    <message>
+      <source>Show Fps Counter: F10</source>
+      <translation>Mostra Contatore Framerate: F10</translation>
+    </message>
+    <message>
+      <source>Stop Emulator: n/a</source>
+      <translation>Ferma Emulatore: n/a</translation>
+    </message>
+    <message>
+      <source>Toggle Fullscreen: F11</source>
+      <translation>Attiva/Disattiva Schermo Intero: F11</translation>
+    </message>
+    <message>
+      <source>Toggle Pause: F9</source>
+      <translation>Attiva/Disattiva Pausa: F9</translation>
+    </message>
+    <message>
+      <source>Tip: Up to three inputs can be assigned for each function</source>
+      <translation>Suggerimento: Per ogni funzione possono essere assegnati fino a tre comandi</translation>
+    </message>
+    <message>
+      <source>Save</source>
+      <translation>Salva</translation>
+    </message>
+    <message>
+      <source>Apply</source>
+      <translation>Applica</translation>
+    </message>
+    <message>
+      <source>Cancel</source>
+      <translation>Annulla</translation>
+    </message>
+    <message>
+      <source>Press a button</source>
+      <translation>Premi un pulsante</translation>
     </message>
   </context>
 </TS>

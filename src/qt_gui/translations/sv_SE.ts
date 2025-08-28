@@ -454,32 +454,8 @@
       <translation>Använd konfigurationer per spel</translation>
     </message>
     <message>
-      <source>L1 / LB</source>
-      <translation>L1 / LB</translation>
-    </message>
-    <message>
-      <source>L2 / LT</source>
-      <translation>L2 / LT</translation>
-    </message>
-    <message>
-      <source>Back</source>
-      <translation>Bakåt</translation>
-    </message>
-    <message>
-      <source>R1 / RB</source>
-      <translation>R1 / RB</translation>
-    </message>
-    <message>
-      <source>R2 / RT</source>
-      <translation>R2 / RT</translation>
-    </message>
-    <message>
       <source>L3</source>
       <translation>L3</translation>
-    </message>
-    <message>
-      <source>Options / Start</source>
-      <translation>Options / Start</translation>
     </message>
     <message>
       <source>R3</source>
@@ -488,22 +464,6 @@
     <message>
       <source>Face Buttons</source>
       <translation>Handlingsknappar</translation>
-    </message>
-    <message>
-      <source>Triangle / Y</source>
-      <translation>Triangel / Y</translation>
-    </message>
-    <message>
-      <source>Square / X</source>
-      <translation>Fyrkant / X</translation>
-    </message>
-    <message>
-      <source>Circle / B</source>
-      <translation>Cirkel / B</translation>
-    </message>
-    <message>
-      <source>Cross / A</source>
-      <translation>Kryss / A</translation>
     </message>
     <message>
       <source>Right Stick Deadzone (def:2, max:127)</source>
@@ -564,6 +524,130 @@
     <message>
       <source>Cancel</source>
       <translation>Avbryt</translation>
+    </message>
+    <message>
+      <source>unmapped</source>
+      <translation>omappad</translation>
+    </message>
+    <message>
+      <source>L1</source>
+      <translation>L1</translation>
+    </message>
+    <message>
+      <source>R1</source>
+      <translation>R1</translation>
+    </message>
+    <message>
+      <source>L2</source>
+      <translation>L2</translation>
+    </message>
+    <message>
+      <source>Options</source>
+      <translation>Options</translation>
+    </message>
+    <message>
+      <source>R2</source>
+      <translation>R2</translation>
+    </message>
+    <message>
+      <source>Touchpad Left</source>
+      <translation>Pekplatta vänster</translation>
+    </message>
+    <message>
+      <source>Touchpad Center</source>
+      <translation>Pekplatta i mitten</translation>
+    </message>
+    <message>
+      <source>Touchpad Right</source>
+      <translation>Pekplatta höger</translation>
+    </message>
+    <message>
+      <source>Triangle</source>
+      <translation>Triangel</translation>
+    </message>
+    <message>
+      <source>Square</source>
+      <translation>Fyrkant</translation>
+    </message>
+    <message>
+      <source>Circle</source>
+      <translation>Cirkel</translation>
+    </message>
+    <message>
+      <source>Cross</source>
+      <translation>Kors</translation>
+    </message>
+    <message>
+      <source>Cannot bind any unique input more than once. Duplicate inputs mapped to the following buttons:
+
+%1</source>
+      <translation>Det går inte att binda samma unika inmatning mer än en gång. Dubbletta inmatningar är mappade till följande knappar:
+
+%1</translation>
+    </message>
+    <message>
+      <source>Press a button</source>
+      <translation>Tryck på en knapp</translation>
+    </message>
+    <message>
+      <source>Move analog stick</source>
+      <translation>Rör analog spak</translation>
+    </message>
+    <message>
+      <source>L1 and L2</source>
+      <translation>L1 och L2</translation>
+    </message>
+    <message>
+      <source>Active Gamepad</source>
+      <translation>Aktiv gamepad</translation>
+    </message>
+    <message>
+      <source>Gamepad ID</source>
+      <translation>Gamepad-id</translation>
+    </message>
+    <message>
+      <source>Default Gamepad</source>
+      <translation>Gamepad (standard)</translation>
+    </message>
+    <message>
+      <source>No default selected</source>
+      <translation>Ingen standard vald</translation>
+    </message>
+    <message>
+      <source>n/a</source>
+      <translation>inte tillgänglig</translation>
+    </message>
+    <message>
+      <source>Set Active Gamepad as Default</source>
+      <translation>Ställ in aktiv gamepad som standard</translation>
+    </message>
+    <message>
+      <source>Remove Default Gamepad</source>
+      <translation>Ta bort gamepad som standard</translation>
+    </message>
+    <message>
+      <source>R1 and R2</source>
+      <translation>R1 och R2</translation>
+    </message>
+    <message>
+      <source>ID: </source>
+      <translation>ID: </translation>
+    </message>
+    <message>
+      <source>Default Controller Selected</source>
+      <translation>Standardkontroller vald</translation>
+    </message>
+    <message>
+      <source>Active controller set as default</source>
+      <translation>Aktiv kontroller inställd som standard</translation>
+    </message>
+    <message>
+      <source>Default Controller Removed</source>
+      <translation>Standardkontroller borttagen</translation>
+    </message>
+    <message>
+      <source>Default controller setting removed</source>
+      <translation>Inställning för standardkontroller borttagen</translation>
     </message>
   </context>
   <context>
@@ -747,6 +831,10 @@
     <message>
       <source>Last updated</source>
       <translation>Senast uppdaterad</translation>
+    </message>
+    <message>
+      <source>Favorite</source>
+      <translation>Favorit</translation>
     </message>
   </context>
   <context>
@@ -950,6 +1038,14 @@
       <source>SFO Viewer for </source>
       <translation>SFO-visare för </translation>
     </message>
+    <message>
+      <source>Remove from Favorites</source>
+      <translation>Ta bort från favoriter</translation>
+    </message>
+    <message>
+      <source>Add to Favorites</source>
+      <translation>Lägg till i favoriter</translation>
+    </message>
   </context>
   <context>
     <name>HelpDialog</name>
@@ -1055,10 +1151,6 @@
     <message>
       <source>L3</source>
       <translation>L3</translation>
-    </message>
-    <message>
-      <source>Touchpad Click</source>
-      <translation>Klick på styrplatta</translation>
     </message>
     <message>
       <source>Mouse to Joystick</source>
@@ -1184,9 +1276,21 @@
       <source>Cannot bind any unique input more than once. Duplicate inputs mapped to the following buttons:
 
 %1</source>
-      <translation type="unfinished">Cannot bind any unique input more than once. Duplicate inputs mapped to the following buttons:
+      <translation>Det går inte att binda samma unika inmatning mer än en gång. Dubbla inmatningar har mappats till följande knappar:
 
 %1</translation>
+    </message>
+    <message>
+      <source>Touchpad Left</source>
+      <translation>Pekplatta vänster</translation>
+    </message>
+    <message>
+      <source>Touchpad Center</source>
+      <translation>Pekplatta mitten</translation>
+    </message>
+    <message>
+      <source>Touchpad Right</source>
+      <translation>Pekplatta höger</translation>
     </message>
   </context>
   <context>
@@ -1447,6 +1551,10 @@
       <source>Show Labels Under Icons</source>
       <translation>Visa etiketter under ikoner</translation>
     </message>
+    <message>
+      <source>Customize Hotkeys</source>
+      <translation>Anpassa snabbtangenter</translation>
+    </message>
   </context>
   <context>
     <name>SettingsDialog</name>
@@ -1539,16 +1647,24 @@
       <translation>Dölj muspekare vid overksam</translation>
     </message>
     <message>
+      <source>Microphone</source>
+      <translation>Mikrofon</translation>
+    </message>
+    <message>
+      <source>None</source>
+      <translation>Ingen</translation>
+    </message>
+    <message>
+      <source>Default Device</source>
+      <translation>Standardenhet</translation>
+    </message>
+    <message>
       <source>s</source>
       <translation>s</translation>
     </message>
     <message>
       <source>Controller</source>
       <translation>Handkontroller</translation>
-    </message>
-    <message>
-      <source>Back Button Behavior</source>
-      <translation>Beteende för bakåtknapp</translation>
     </message>
     <message>
       <source>Graphics</source>
@@ -1641,6 +1757,14 @@
     <message>
       <source>Guest Debug Markers</source>
       <translation>Felsökningsmarkörer för gäst</translation>
+    </message>
+    <message>
+      <source>Enable Readbacks</source>
+      <translation>Aktivera återläsning</translation>
+    </message>
+    <message>
+      <source>Enable Readback Linear Images</source>
+      <translation>Aktivera återläsning av linjära bilder</translation>
     </message>
     <message>
       <source>Update</source>
@@ -1787,10 +1911,6 @@
       <translation>Dölj pekare vid overksam:\nLängden (sekunder) efter vilken som muspekaren som har varit overksam döljer sig själv.</translation>
     </message>
     <message>
-      <source>Back Button Behavior:\nSets the controller&apos;s back button to emulate tapping the specified position on the PS4 touchpad.</source>
-      <translation>Beteende för bakåtknapp:\nStäller in handkontrollerns bakåtknapp för att emulera ett tryck på angivna positionen på PS4ns touchpad.</translation>
-    </message>
-    <message>
       <source>Display Compatibility Data:\nDisplays game compatibility information in table view. Enable &quot;Update Compatibility On Startup&quot; to get up-to-date information.</source>
       <translation>Visa kompatibilitetsdata:\nVisar information om spelkompatibilitet i tabellvyn. Aktivera &quot;Uppdatera kompatibilitet vid uppstart&quot; för att få uppdaterad information.</translation>
     </message>
@@ -1813,22 +1933,6 @@
     <message>
       <source>Always</source>
       <translation>Alltid</translation>
-    </message>
-    <message>
-      <source>Touchpad Left</source>
-      <translation>Touchpad vänster</translation>
-    </message>
-    <message>
-      <source>Touchpad Right</source>
-      <translation>Touchpad höger</translation>
-    </message>
-    <message>
-      <source>Touchpad Center</source>
-      <translation>Touchpad mitten</translation>
-    </message>
-    <message>
-      <source>None</source>
-      <translation>Ingen</translation>
     </message>
     <message>
       <source>Graphics Device:\nOn multiple GPU systems, select the GPU the emulator will use from the drop down list,\nor select &quot;Auto Select&quot; to automatically determine it.</source>
@@ -1887,8 +1991,12 @@
       <translation>Samla shaders:\nDu behöver aktivera detta för att redigera shaders med felsökningsmenyn (Ctrl + F10)</translation>
     </message>
     <message>
-      <source>Crash Diagnostics:\nCreates a .yaml file with info about the Vulkan state at the time of crashing.\nUseful for debugging &apos;Device lost&apos; errors. If you have this enabled, you should enable Host AND Guest Debug Markers.\nDoes not work on Intel GPUs.\nYou need Vulkan Validation Layers enabled and the Vulkan SDK for this to work.</source>
-      <translation>Krashdiagnostik:\nSkapar en .yaml-fil med information om Vulkan-tillståndet vid tid för kraschen.\nAnvändbart för felsökning av &apos;Device lost&apos;-fel. Om du har aktiverat detta bör du aktivera felsökningsmarkörer för Värd OCH Gäst.\nFungerar inte på Intel GPUer.\nDu behöver aktivera Vulkan Validation Layers och Vulkan SDK för att detta ska fungera.</translation>
+      <source>Enable Readbacks:\nEnable GPU memory readbacks and writebacks.\nThis is required for proper behavior in some games.\nMight cause stability and/or performance issues.</source>
+      <translation>Aktivera återläsning:\nAktivera återläsning och återskrivning av GPU-minnet.\nDetta krävs för att vissa spel ska fungera korrekt.\nKan orsaka stabilitets- och/eller prestandaproblem.</translation>
+    </message>
+    <message>
+      <source>Enable Readback Linear Images:\nEnables async downloading of GPU modified linear images.\nMight fix issues in some games.</source>
+      <translation>Aktivera återläsning av linjära bilder:\nAktiverar asynkron nedladdning av GPU-modifierade linjära bilder.\nKan lösa problem i vissa spel.</translation>
     </message>
     <message>
       <source>Copy GPU Buffers:\nGets around race conditions involving GPU submits.\nMay or may not help with PM4 type 0 crashes.</source>
@@ -2054,6 +2162,30 @@
       <source> * Unsupported Vulkan Version</source>
       <translation> * Versionen av Vulkan stöds inte</translation>
     </message>
+    <message>
+      <source>100%</source>
+      <translation>100%</translation>
+    </message>
+    <message>
+      <source>Experimental Features</source>
+      <translation>Experimentella funktioner</translation>
+    </message>
+    <message>
+      <source>WARNING: These features are experimental and should not be enabled unless you were told to, or a game requires it. Please ask in the shadPS4 Discord server if you have any questions.</source>
+      <translation>VARNING: Dessa funktioner är experimentella och bör inte aktiveras om du inte har blivit tillsagd att göra det eller om ett spel kräver det. Fråga i shadPS4s Discord-server om du har några frågor.</translation>
+    </message>
+    <message>
+      <source>Enable Background Controller Input</source>
+      <translation>Aktivera bakgrundsinmatning från handkontroll</translation>
+    </message>
+    <message>
+      <source>Enable Controller Background Input:\nAllow shadPS4 to detect controller inputs when the game window is not in focus.</source>
+      <translation>Aktivera bakgrundsinmatning från handkontroll:\nTillåt shadPS4 att upptäcka inmatningar från handkontrollen när spelfönstret inte är aktivt.</translation>
+    </message>
+    <message>
+      <source>Crash Diagnostics:\nCreates a .yaml file with info about the Vulkan state at the time of crashing.\nUseful for debugging &apos;Device lost&apos; errors. If you have this enabled, you should enable Host AND Guest Debug Markers.\nYou need Vulkan Validation Layers enabled and the Vulkan SDK for this to work.</source>
+      <translation>Kraschdiagnostik:\nSkapar en .yaml-fil med information om Vulkan-status vid kraschen.\nAnvändbart för felsökning av felmeddelanden om att enheten har förlorats. Om du har aktiverat detta bör du aktivera felsökningsmarkörer för både värd och gäst.\nDu måste ha Vulkan Validation Layers aktiverat och Vulkan SDK för att detta ska fungera.</translation>
+    </message>
   </context>
   <context>
     <name>TrophyViewer</name>
@@ -2080,6 +2212,77 @@
     <message>
       <source>Show Hidden Trophies</source>
       <translation>Visa dolda troféer</translation>
+    </message>
+  </context>
+  <context>
+    <name>hotkeys</name>
+    <message>
+      <source>Customize Hotkeys</source>
+      <translation>Anpassa snabbtangenter</translation>
+    </message>
+    <message>
+      <source>Controller Hotkeys</source>
+      <translation>Snabbtangenter för kontroller</translation>
+    </message>
+    <message>
+      <source>Show FPS Counter</source>
+      <translation>Visa FPS-räknare</translation>
+    </message>
+    <message>
+      <source>unmapped</source>
+      <translation>inte mappad</translation>
+    </message>
+    <message>
+      <source>Stop Emulator</source>
+      <translation>Stoppa emulator</translation>
+    </message>
+    <message>
+      <source>Toggle Fullscreen</source>
+      <translation>Växla helskärm</translation>
+    </message>
+    <message>
+      <source>Toggle Pause</source>
+      <translation>Växla paus</translation>
+    </message>
+    <message>
+      <source>Keyboard Hotkeys</source>
+      <translation>Snabbtangenter för tangentbord</translation>
+    </message>
+    <message>
+      <source>Show Fps Counter: F10</source>
+      <translation>Visa FPS-räknare: F10</translation>
+    </message>
+    <message>
+      <source>Stop Emulator: n/a</source>
+      <translation>Stoppa emulator: inte tillgänglig</translation>
+    </message>
+    <message>
+      <source>Toggle Fullscreen: F11</source>
+      <translation>Växla helskärm: F11</translation>
+    </message>
+    <message>
+      <source>Toggle Pause: F9</source>
+      <translation>Växla paus: F9</translation>
+    </message>
+    <message>
+      <source>Tip: Up to three inputs can be assigned for each function</source>
+      <translation>Tips: Upp till tre inmatningar kan tilldelas för varje funktion</translation>
+    </message>
+    <message>
+      <source>Save</source>
+      <translation>Spara</translation>
+    </message>
+    <message>
+      <source>Apply</source>
+      <translation>Tillämpa</translation>
+    </message>
+    <message>
+      <source>Cancel</source>
+      <translation>Avbryt</translation>
+    </message>
+    <message>
+      <source>Press a button</source>
+      <translation>Tryck en knapp</translation>
     </message>
   </context>
 </TS>
